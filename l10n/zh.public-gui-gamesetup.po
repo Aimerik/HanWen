@@ -1677,7 +1677,7 @@ msgid ""
 "“The Lacedaemonians \\[Spartans] fought a memorable battle; they made it "
 "quite clear that they were the experts, and that they were fighting against "
 "amateurs.” \\n— Herodotus (“The Histories”, VII. 211)"
-msgstr "拉科尼亚人[拉栖代孟人]打了一场令人难忘的战斗;看起来就像是专家对付业余之人。——希罗多德"
+msgstr "拉科尼亚人[拉栖代孟人]打了一场令人难忘的战斗，他们赢得轻松，就像是行家对付新手。——希罗多德"
 
 #: gui/text/quotes.txt:102
 msgid ""
@@ -2321,7 +2321,7 @@ msgid ""
 "are you, friend? What is your land? And how old were you when the Medes "
 "\\[Persians] came?” \\n— Xenophanes, likely referring to a punitive "
 "expedition against Greek cities in Ionia (fragment 17)"
-msgstr "围坐冬天的篝火旁，这是值得思考的正确的问题……你是谁，朋友？你的土地在哪？当标枪人[波斯人]来的时候，你多大了？——色诺芬尼，可能是指波斯对希腊帮助爱奥尼亚地区的惩罚（片段17）"
+msgstr "围坐冬天的篝火旁，这是值得思考的正确的问题……你是谁，朋友？你的土地在哪？当米底人[波斯人]来的时候，你多大了？——色诺芬尼，可能是指波斯对希腊帮助爱奥尼亚地区的惩罚（片段17）"
 
 #: gui/text/quotes.txt:189
 msgid ""
