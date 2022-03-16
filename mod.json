@@ -1,0 +1,8 @@
+{
+	"name": "zh-lang",
+	"version": "0.0.25b.05",
+	"label": "biāozhǔnhànwén Language Pack",
+	"url": "play0ad.com",
+	"description": "biāozhǔnhànwén Fonts and Translations",
+	"dependencies": ["0ad=0.0.25"]
+}
