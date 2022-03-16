@@ -1462,6 +1462,18 @@ msgstr "悬眼"
 msgid "Sentry and Stone Towers have 0 minimum attack range."
 msgstr "望楼和碉楼无最小射击范围。"
 
+#: simulation/data/technologies/outpost_vision.jsondescription
+msgid "Increases outpost vision."
+msgstr "提高望楼视野。"
+
+#: simulation/data/technologies/outpost_vision.jsongenericName
+msgid "Carrier Pigeons"
+msgstr "信鸽"
+
+#: simulation/data/technologies/outpost_vision.jsontooltip
+msgid "Outposts +33% vision range."
+msgstr "望楼视野+33%。"
+
 #: simulation/data/technologies/tower_range.jsondescription
 msgid "Archers can shoot more powerful arrows."
 msgstr "弓箭手可以射出更强劲的箭。"
