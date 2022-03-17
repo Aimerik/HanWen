@@ -220,8 +220,8 @@ msgstr "宗教狂热"
 
 #: simulation/data/auras/structures/kush_pyramids_economic.jsonauraDescription
 #: simulation/data/auras/units/heroes/gaul_hero_viridomarus.jsonauraDescription
-msgid "Workers +15% gather speed."
-msgstr "公民和妇女收集食物速度 +15% 。"
+msgid "Workers +10% gather speed."
+msgstr "公民和妇女收集食物速度 +10% 。"
 
 #: simulation/data/auras/structures/kush_pyramids_economic.jsonauraName
 msgid "Patriotism"

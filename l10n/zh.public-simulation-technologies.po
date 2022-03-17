@@ -591,9 +591,14 @@ msgstr "高卢人的发明，加快收割庄稼。"
 msgid "Harvesting Machine"
 msgstr "收割机"
 
+#: simulation/data/technologies/gather_farming_plows.jsongenericName
+msgid "Cattle ploughing"
+msgstr "牛耕"
+
 #: simulation/data/technologies/gather_farming_harvester.jsontooltip
-msgid "Workers +15% grain gather rate."
-msgstr "农民耕作效率+15%"
+#: simulation/data/technologies/gather_farming_plows.jsontooltip
+msgid "Workers +10% grain gather rate."
+msgstr "农民耕作效率+10%"
 
 #: simulation/data/technologies/gather_farming_plows.jsondescription
 msgid ""
@@ -613,9 +618,6 @@ msgstr "请有能耐的屠夫教授迅速分解动物。"
 msgid "Workers +15% meat gather rate."
 msgstr "工人屠宰效率+15%"
 
-#: simulation/data/technologies/gather_farming_plows.jsongenericName
-msgid "Cattle ploughing"
-msgstr "牛耕"
 
 #: simulation/data/technologies/gather_farming_training.jsondescription
 msgid "Training for workers to increase farm gathering speed."
