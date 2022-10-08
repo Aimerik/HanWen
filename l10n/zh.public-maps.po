@@ -68,7 +68,7 @@ msgstr "阿尔卑斯山脉，接壤深遂的山谷。"
 
 #: maps/random/alpine_valley.jsonsettings.Name
 msgid "Alpine Valley"
-msgstr "阿尔卑斯大峡谷"
+msgstr "阿尔卑斯山谷"
 
 #: maps/random/ambush.jsonsettings.Description
 msgid ""
@@ -1054,7 +1054,7 @@ msgstr "玩家开局位于郁郁葱葱的绿洲附近，绿洲外是广阔荒凉
 #: maps/random/saharan_oases.jsonsettings.Name
 #: maps/scenarios/saharan_oases.xml:Name:26
 msgid "Saharan Oases"
-msgstr "撒哈拉中的绿洲"
+msgstr "撒哈拉绿洲"
 
 #: maps/random/sahel.jsonsettings.Description
 msgid ""
@@ -2509,7 +2509,7 @@ msgstr "山脉众多，资源丰富。"
 
 #: maps/skirmishes/alpine_mountains_3p.xml:Name:39
 msgid "Alpine Mountains (3)"
-msgstr "阿尔卑斯山 (3)"
+msgstr "阿尔卑斯山脉 (3)"
 
 #: maps/skirmishes/alpine_valleys_2p.xml:Description:39
 msgid ""
@@ -2603,11 +2603,11 @@ msgid ""
 "Northern Italy near the Alps is called Cisalpine Gaul by the Romans. It's a fertile area contested by the Gauls, Etruscans, and Romans alike. \n"
 "\n"
 "CAUTION: Map has a lot of snow particles that could affect graphics performance on low-end hardware."
-msgstr "靠近阿尔卑斯山的意大利北部，罗马称之为 Cisalpine Gaul。 这一带土地肥沃，是高卢、伊特鲁里亚和罗马三方争夺之地。\n\n注意：地图上积雪很多，可能会影响低端电脑。"
+msgstr "靠近阿尔卑斯山的意大利北部，罗马称之为山内高卢。 这一带土地肥沃，是高卢、伊特鲁里亚和罗马三方争夺之地。\n\n注意：地图上积雪很多，可能会影响低端电脑。"
 
 #: maps/skirmishes/cisalpine_winter_2p.xml:Name:39
 msgid "Cisalpine Winter (2)"
-msgstr "阿尔卑斯的冬天（2）"
+msgstr "山内高卢冬季（2）"
 
 #: maps/skirmishes/corinthian_isthmus_2p.xml:Name:38
 msgid "Corinthian Isthmus (2)"
@@ -2645,7 +2645,7 @@ msgstr "一个在爱琴海的“岛屿风格”地图集。"
 
 #: maps/skirmishes/cycladic_archipelago_2p.xml:Name:38
 msgid "Cycladic Archipelago (2)"
-msgstr "克拉群岛 (2)"
+msgstr "基克拉迪群岛 (2)"
 
 #: maps/skirmishes/cycladic_archipelago_3p.xml:Description:38
 msgid ""
@@ -2720,7 +2720,7 @@ msgid ""
 "- Fayyum: crocodile shrine, nile dam\n"
 "- Eastern desert: mount Sinai, deep Wadi, Red Sea reefs\n"
 "- Western desert: Oasis Charga and Siwa, Qattara Depression\n"
-msgstr "为了古埃及，准备战斗！\n\n玩家以成熟的城市和小型军队开局，每个都有明显的优点和缺点。小心，有7个强大的堡垒和劫匪！\n\n公元前一世纪。埃及在内部分为希腊化（亚历山大，以塞留西为代表）和传统影响（孟菲斯，以托勒密为代表）。尼罗河南部的底比斯已被库什接管。在地中海城市昔兰尼所在的 Al-Dschabal al-Achdar 西北部，罗马正准备入侵。来自东部沙漠的 at-Tih 和西奈山的敌人（以波斯为代表）正在向前推进和锡瓦绿洲。西南沙漠的查加（以迦太基为代表）也试图分一杯羹。\n位置：\n- 亚历山大港：图书馆，港口\n- 孟菲斯：大墓地，金字塔，阿匹斯神庙\n- 底比斯：神庙区，帝王谷\n- 昔兰尼：地中海城市，橄榄树林\n- 法耶姆：鳄鱼神殿，尼罗河大坝\n- 东部沙漠：西奈山，深谷，红海珊瑚礁\n- 西部沙漠：查加和锡瓦绿洲，卡塔拉低地\n"
+msgstr "为了埃及，准备战斗！\n\n玩家以成熟的城市和小型军队开局，每个都有明显的优点和缺点。小心，有7个强大的堡垒和劫匪！\n\n公元前一世纪。埃及在内部分为希腊化（亚历山大，以塞留西为代表）和传统影响（孟菲斯，以托勒密为代表）。尼罗河南部的底比斯已被库什接管。在地中海城市昔兰尼所在的 Al-Dschabal al-Achdar 西北部，罗马正准备入侵。来自东部沙漠的 at-Tih 和西奈山的敌人（以波斯为代表）正在向前推进和锡瓦绿洲。西南沙漠的查加（以迦太基为代表）也试图分一杯羹。\n位置：\n- 亚历山大港：图书馆，港口\n- 孟菲斯：大墓地，金字塔，阿匹斯神庙\n- 底比斯：神庙区，帝王谷\n- 昔兰尼：地中海城市，橄榄树林\n- 法耶姆：鳄鱼神殿，尼罗河大坝\n- 东部沙漠：西奈山，深谷，红海珊瑚礁\n- 西部沙漠：查加和锡瓦绿洲，卡塔拉低地\n"
 
 #: maps/skirmishes/egypt_3pv3p.xml:Name:39
 msgid "Egypt (3v3)"
@@ -2947,7 +2947,7 @@ msgstr "地中海沿岸的一处天然避风港，快去争夺资源吧。"
 
 #: maps/skirmishes/mediterranean_cove_2p.xml:Name:38
 msgid "Mediterranean Coves (2)"
-msgstr "地中海海岸 (2)"
+msgstr "地中海沿岸 (2)"
 
 #: maps/skirmishes/miletus_peninsula_2p.xml:Description:39
 msgid ""
@@ -2998,7 +2998,7 @@ msgstr "两名玩家被困在寒冷的北方岛屿。一名玩家开局位于西
 
 #: maps/skirmishes/northern_island_2p.xml:Name:39
 msgid "Northern Island (2)"
-msgstr "北方之岛 (2)"
+msgstr "北岛 (2)"
 
 #: maps/skirmishes/nubian_frontier_2p.xml:Description:39
 msgid "The arid and treacherous frontier between Nubia and Egypt."
@@ -3018,11 +3018,11 @@ msgstr "一条河流蜿蜒穿过塞尔维亚湿地。 石料稀缺，而金属�
 
 #: maps/skirmishes/obedska_bog_4p.xml:Name:39
 msgid "Obedska Bog (4)"
-msgstr "奥博达斯卡沼泽 (4)"
+msgstr "奥别德斯卡沼泽 (4)"
 
 #: maps/skirmishes/obedska_bog_night_4p.xml:Name:39
 msgid "Obedska Bog Night (4)"
-msgstr "奥博达斯卡沼泽之夜 (4)"
+msgstr "奥别德斯卡沼泽之夜 (4)"
 
 #: maps/skirmishes/oceanside_2p.xml:Description:39
 msgid "A Lush temperate biome along an ocean. "
@@ -3067,7 +3067,7 @@ msgstr "撒哈拉绿洲（2）"
 
 #: maps/skirmishes/saharan_oases_4p.xml:Name:39
 msgid "Saharan Oases (4)"
-msgstr "撒哈拉中的绿洲 (4)"
+msgstr "撒哈拉绿洲 (4)"
 
 #: maps/skirmishes/sahel_4p.xml:Description:38
 msgid ""
@@ -3170,7 +3170,7 @@ msgstr "资源丰富的温带区域。地图尺寸：小型。"
 
 #: maps/skirmishes/temperate_roadway_2p.xml:Name:39
 msgid "Temperate Roadway (2)"
-msgstr "温带巷道 (2)"
+msgstr "温带道路 (2)"
 
 #: maps/skirmishes/thessalian_plains_4p.xml:Description:38
 msgid ""
@@ -3222,7 +3222,7 @@ msgstr "条条大路通罗马"
 
 #: maps/skirmishes/via_augusta_4p.xml:Name:39
 msgid "Via Augusta (4)"
-msgstr "奥古斯都皇家大道（4）"
+msgstr "奥古斯都大道（4）"
 
 #: maps/skirmishes/watering_holes_4p.xml:Description:38
 msgid ""
@@ -3282,3 +3282,27 @@ msgstr "山脉环绕着波斯人的家园，横跨波斯、埃兰以及米底亚
 #: maps/skirmishes/zagros_mountains_2p.xml:Name:38
 msgid "Zagros Mountains (2)"
 msgstr "扎格罗斯山脉 (2)"
+
+#: maps/skirmishes/tarim_basin_2p.xml:Description:39
+#: maps/skirmishes/tarim_basin_4p.xml:Description:39
+msgid ""
+"A barren desert basin surrounded by mountainous valleys, the Tarim Basin is also called \"The Western Regions\" by the Han, and represents the furthest extent of their power.\n"
+"\n"
+"The basin itself is bereft of life  and offers little in the way of defensibility. The rugged mountain valleys harbor the only life, in the form of hearty shrub and tree species and some goats."
+msgstr "塔里木盆地，为山谷包围的贫瘠地区。汉朝称这里为“西域”，意为中土以西的地域。\n\n盆地本身不适合定居，也难于防守。崎岖的山谷中蕴藏着少数生命，有丰盛的灌木和树种，以及一些野山羊。"
+
+#: maps/skirmishes/tarim_basin_2p.xml:Name:39
+msgid "Tarim Basin (2)"
+msgstr "塔里木盆地（2）"
+
+#: maps/skirmishes/tarim_basin_4p.xml:Name:39
+msgid "Tarim Basin (4)"
+msgstr "塔里木盆地（4）"
+
+#: maps/skirmishes/yangtze_2p.xml:Description:39
+msgid "The Yangtze River in China. "
+msgstr "长江，又名扬子江。"
+
+#: maps/skirmishes/yangtze_2p.xml:Name:39
+msgid "Chang Jiang (2)"
+msgstr "长江（2）"

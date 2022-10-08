@@ -38,17 +38,17 @@ msgstr "应用状态"
 #: simulation/data/attack_effects/capture.jsondescription
 msgctxt "effect caused by an attack"
 msgid "Reduces capture points of a target."
-msgstr "减少目标的占领点"
+msgstr "减少目标的忠诚"
 
 #: simulation/data/attack_effects/capture.jsonname
 msgctxt "effect caused by an attack"
 msgid "Capture"
-msgstr "占领"
+msgstr "夺取"
 
 #: simulation/data/attack_effects/damage.jsondescription
 msgctxt "effect caused by an attack"
 msgid "Reduces the health of a target."
-msgstr "减少目标的生命值"
+msgstr "减少目标的生命"
 
 #: simulation/data/attack_effects/damage.jsonname
 msgctxt "effect caused by an attack"
@@ -68,7 +68,22 @@ msgstr "单位正被灼烧"
 #: simulation/data/status_effects/burning.jsonstatusName
 msgctxt "status effect"
 msgid "Burning"
-msgstr "火烧"
+msgstr "燃烧"
+
+#: simulation/data/status_effects/pound.jsonapplierTooltip
+msgctxt "status effect"
+msgid "This unit causes pound damage."
+msgstr "单位会使用重击。"
+
+#: simulation/data/status_effects/pound.jsonreceiverTooltip
+msgctxt "status effect"
+msgid "This unit is pound."
+msgstr "单位遭到重击"
+
+#: simulation/data/status_effects/pound.jsonstatusName
+msgctxt "status effect"
+msgid "Pound"
+msgstr "重击"
 
 #: simulation/data/status_effects/poisoned.jsonapplierTooltip
 msgctxt "status effect"
@@ -877,7 +892,7 @@ msgstr "将有民居的文明变为10单位容量的民居，其他文明的则�
 msgid ""
 "Changes in a 5-pop house for civilisations with those houses, is deleted for"
 " other civs"
-msgstr "有房屋的文明，房屋容量改为5单位，其他文明的则删除"
+msgstr "有民居的文明，民居容量改为5单位，其他文明的则删除"
 
 #: simulation/templates/skirmish/units/default_infantry_melee_b.xml:5
 msgctxt "Name of an attack, usually the weapon."
@@ -892,19 +907,19 @@ msgstr "远程"
 #: simulation/templates/special/formations/anti_cavalry.xml:6
 #: simulation/templates/special/formations/testudo.xml:6
 msgid "Melee Infantry only, requires at least 16."
-msgstr "至少需要 16 名近战步兵。"
+msgstr "至少需要16名近战步兵。"
 
 #: simulation/templates/special/formations/anti_cavalry.xml:7
 msgid "Anti Cavalry"
-msgstr "反骑"
+msgstr "一字阵"
 
 #: simulation/templates/special/formations/battle_line.xml:5
 msgid "Battle Line"
-msgstr "迎击横队"
+msgstr "战列线"
 
 #: simulation/templates/special/formations/box.xml:6
 msgid "Requires at least 4 Soldiers or Siege engines."
-msgstr "需要至少 4 名战士或攻城器械。"
+msgstr "需要至少4名战士或攻城器械。"
 
 #: simulation/templates/special/formations/box.xml:7
 msgid "Box"
@@ -912,7 +927,7 @@ msgstr "回形阵"
 
 #: simulation/templates/special/formations/column_closed.xml:5
 msgid "Forced March"
-msgstr "行军纵队"
+msgstr "纵队"
 
 #: simulation/templates/special/formations/column_open.xml:5
 msgid "Column Open"
@@ -920,11 +935,11 @@ msgstr "分散纵队"
 
 #: simulation/templates/special/formations/flank.xml:6
 msgid "Requires at least 8 Soldiers or Siege engines."
-msgstr "需要至少 8 名战士或攻城器械。"
+msgstr "需要至少8名士兵或攻城机械。"
 
 #: simulation/templates/special/formations/flank.xml:7
 msgid "Flank"
-msgstr "两翼阵"
+msgstr "雁形阵"
 
 #: simulation/templates/special/formations/line_closed.xml:5
 msgid "Close Order"
@@ -940,11 +955,11 @@ msgstr "无"
 
 #: simulation/templates/special/formations/phalanx.xml:6
 msgid "Infantry Hoplites only, requires at least 10."
-msgstr "至少需要 10 名铜盾枪手。"
+msgstr "至少需要10名铜盾枪手。"
 
 #: simulation/templates/special/formations/phalanx.xml:7
 msgid "Phalanx"
-msgstr "密集横队"
+msgstr "密集阵"
 
 #: simulation/templates/special/formations/scatter.xml:5
 msgid "Scatter"
@@ -952,19 +967,19 @@ msgstr "分散"
 
 #: simulation/templates/special/formations/skirmish.xml:5
 msgid "Ranged Soldiers only, requires at least 2."
-msgstr "至少需要 2 名远程士兵。"
+msgstr "至少需要2名远程士兵。"
 
 #: simulation/templates/special/formations/skirmish.xml:6
 msgid "Skirmish"
-msgstr "游击横队"
+msgstr "散兵线"
 
 #: simulation/templates/special/formations/syntagma.xml:6
 msgid "Infantry Pikemen only, requires at least 16."
-msgstr "至少需要 16 名标枪手。"
+msgstr "至少需要16名长枪手。"
 
 #: simulation/templates/special/formations/syntagma.xml:8
 msgid "Syntagma"
-msgstr "长枪横队"
+msgstr "方阵"
 
 #: simulation/templates/special/formations/testudo.xml:8
 msgid "Testudo"
@@ -972,7 +987,7 @@ msgstr "龟型阵"
 
 #: simulation/templates/special/formations/wedge.xml:6
 msgid "Cavalry only, requires at least 6."
-msgstr "至少需要 6 名骑兵。"
+msgstr "至少需要6名骑兵。"
 
 #: simulation/templates/special/formations/wedge.xml:7
 msgid "Wedge"
@@ -988,7 +1003,7 @@ msgstr "间谍"
 
 #: simulation/templates/template_formation.xml:26
 msgid "Requires at least 2 Soldiers or Siege Engines."
-msgstr "需要至少 2 名士兵或攻城器械。"
+msgstr "需要至少2名士兵或攻城器械。"
 
 #: simulation/templates/template_gaia.xml:7
 msgid "Gaia"
@@ -1053,7 +1068,7 @@ msgstr "伐木以获得木材。"
 
 #: simulation/templates/template_structure.xml:46
 msgid "Structure"
-msgstr "建筑"
+msgstr "建筑物"
 
 #: simulation/templates/template_unit.xml:37
 msgid "Unit"

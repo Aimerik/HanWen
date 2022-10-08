@@ -19,9 +19,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 0 A.D.\n"
-"POT-Creation-Date: 2021-06-07 07:53+0000\n"
-"PO-Revision-Date: 2021-07-25 09:30+0000\n"
-"Last-Translator: Stanislas Dolcini <stan@wildfiregames.com>\n"
+"POT-Creation-Date: 2021-10-11 07:08+0000\n"
+"PO-Revision-Date: 2014-06-19 17:51+0000\n"
+"Last-Translator: liu lizhi <xingzuo88@qq.com>, 2014,2017-2021\n"
 "Language-Team: Chinese (http://www.transifex.com/wildfire-games/0ad/language/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,15 +70,15 @@ msgstr "基础控制（默认）："
 
 #: gui/manual/intro.txt:11
 msgid "• Left-click to select units"
-msgstr "• 鼠标左击选中单位"
+msgstr "• 鼠标左键选中单位"
 
 #: gui/manual/intro.txt:12
 msgid "• Left-click-and-drag to select groups of units"
-msgstr "• 鼠标左击且拖动，来选取一组单位"
+msgstr "• 鼠标左键且拖动，来选取一组单位"
 
 #: gui/manual/intro.txt:13
 msgid "• Right-click to order units to the target"
-msgstr "• 鼠标右击，命令单位到指定地点"
+msgstr "• 鼠标右键，命令单位到指定地点"
 
 #: gui/manual/intro.txt:14
 msgid "• Arrow keys or WASD keys to move the camera"
@@ -108,13 +108,13 @@ msgid ""
 "game or against one or more computer players (AI). The default AI (Petra) is"
 " under development and may not always be up to date on the new features, but"
 " you can play the game with or against it nonetheless."
-msgstr "• [font=\"sans-bold-14\"]单人模式[font=\"sans-14\"]  -沙箱模式。默认AI还处于开发模式，可能不具备最新特性。可对游戏进行测试。"
+msgstr "• [font=\"sans-bold-14\"]单人模式[font=\"sans-14\"]  -沙盒模式。默认电脑还处于开发模式，可能不具备最新特性。可对游戏进行测试。"
 
 #: gui/manual/intro.txt:21
 msgid ""
 "• [font=\"sans-bold-14\"]Multiplayer[font=\"sans-14\"] – Play against human "
 "opponents over the internet."
-msgstr "• [font=\"sans-bold-14\"]多人模式[font=\"sans-14\"]  -联网多人对战。"
+msgstr "• [font=\"sans-bold-14\"]多人模式[font=\"sans-14\"]  -联机对战。"
 
 #: gui/manual/intro.txt:23
 msgid ""
@@ -122,7 +122,7 @@ msgid ""
 " The game uses UDP port 20595, so the host must configure their "
 "NAT/firewall/etc. to allow this. Other players can then select “Join game” "
 "and enter the host's IP address."
-msgstr "要进行多人游戏，需要一名玩家选择“建立主机”来创建。游戏采用 UDP 端口20595，要确保端口未被 NAT 或者防火墙程序屏蔽。接下来其他玩家可以选择“加入游戏”，然后输入游戏主机的 IP 地址."
+msgstr "要多人游戏，需要一名玩家选择“建立主机”来创建。游戏采用UDP端口20595，要确保端口未被NAT或者防火墙程序屏蔽。接下来其他玩家可以选择“加入游戏”，然后输入游戏主机的IP地址."
 
 #: gui/manual/intro.txt:25
 msgid "[font=\"sans-bold-16\"]Game setup[font=\"sans-14\"]"
@@ -146,7 +146,7 @@ msgstr "• [font=\"sans-bold-14\"]随机地图[font=\"sans-14\"] -从脚本自�
 msgid ""
 "• [font=\"sans-bold-14\"]Scenario map[font=\"sans-14\"] – A map created by "
 "map designers and with fixed civilizations"
-msgstr "• [font=\"sans-bold-14\"]剧情地图[font=\"sans-14\"]  -专门设计的地图，文明固定。"
+msgstr "• [font=\"sans-bold-14\"]剧本地图[font=\"sans-14\"]  -专门设计的地图，文明固定。"
 
 #: gui/manual/intro.txt:31
 msgid ""
@@ -161,7 +161,7 @@ msgid ""
 "over land and demo maps are maps used for testing purposes (generally not "
 "useful to play on). The “All Maps” filter shows all maps together in one "
 "list."
-msgstr "地图可进一步细分。 默认地图为常玩地图;海事地图里，部分国家无陆路相通;演示地图用于测试（通常不建议游戏）; “所有地图”，顾名思义显示所有地图。"
+msgstr "地图可进一步细分。 默认地图为常玩地图;海洋地图中部分陆地会被水面分隔;演示地图用于测试（通常不建议游戏）; “所有地图”，顾名思义显示所有地图。"
 
 #: gui/manual/intro.txt:35
 msgid ""
@@ -170,7 +170,7 @@ msgid ""
 "controls which player (decides where you start on the map etc.). The options"
 " are either a human player, an AI or no player at all (the opponent will "
 "just be idle)."
-msgstr "最后是更改设置。随机地图可可以设置玩家数量、地图大小等。剧情地图则只能选择控制玩家的角色（决定你在地图上的起始位置）。选项包括玩家、AI 或无玩家。"
+msgstr "最后是更改设置。随机地图可可以设置玩家数量、地图大小等。剧情地图则只能选择控制玩家的角色（决定你在地图上的起始位置）。选项包括玩家、电脑 或无玩家。"
 
 #: gui/manual/intro.txt:37
 msgid "When you are ready to start, click the “Start game” button."
@@ -184,7 +184,7 @@ msgstr "[font=\"sans-bold-16\"]快捷键[font=\"sans-14\"]"
 msgid ""
 "You may change hotkeys in [font=\"sans-bold-14\"]Options > "
 "Hotkeys[font=\"sans-14\"] to suit your liking."
-msgstr "可以在 [font=\"sans-bold-14\"] 选项 > 热键[font=\"sans-14\"] 中修改适宜的热键"
+msgstr "可以在 [font=\"sans-bold-14\"] 选项 > 快捷键[font=\"sans-14\"] 中修改适宜的快捷键"
 
 #: gui/manual/intro.txt:42
 msgid "[font=\"sans-bold-14\"]Program-wide[font=\"sans-14\"]"
@@ -230,7 +230,7 @@ msgid ""
 "  hotkey.bigscreenshot – Take huge screenshot (6400×4800 pixels, in .bmp "
 "format, location is displayed in the top left of the GUI after the file has "
 "been saved, and can also be seen in the console/logs if you miss it there)"
-msgstr "hotkey.bigscreenshot –  巨型屏幕截图（分辨率为 6400*4800 的 bmp 图片，保存位置显示在界面的左上方，也可以在控制台/日志中查看）"
+msgstr "hotkey.bigscreenshot –  高分辨率截屏（分辨率为 6400*4800 的 bmp 图片，保存位置显示在界面的左上方，也可以在控制台/日志中查看）"
 
 #: gui/manual/intro.txt:51
 msgid "  hotkey.tab.next – Switch to the next tab"
@@ -248,7 +248,7 @@ msgstr "[font=\"sans-bold-14\"]游戏中[font=\"sans-14\"]"
 msgid ""
 "  Double Left Click \\[on unit] – Select all of your units of the same kind "
 "on the screen (even if they're different ranks)"
-msgstr "鼠标左键双击一个 \\[单位] -- 选取屏幕上所有同一类型的单位，即使他们不是在一个组队中"
+msgstr "鼠标左键双击一个 \\[单位] -- 选取屏幕上所有同一类型的单位，即使他们不是在一个编队中"
 
 #: gui/manual/intro.txt:56
 msgid ""
@@ -282,7 +282,7 @@ msgstr "hotkey.session.gui.menu.toggle –   显示/隐藏菜单"
 
 #: gui/manual/intro.txt:62
 msgid "  hotkey.timeelapsedcounter.toggle – Toggle time elapsed counter"
-msgstr " hotkey.timeelapsedcounter.toggle – 切换时间计数器"
+msgstr " hotkey.timeelapsedcounter.toggle – 切换计时器"
 
 #: gui/manual/intro.txt:63
 msgid "  hotkey.cancel – Close all dialogs (chat, menu)"
@@ -294,7 +294,7 @@ msgstr " hotkey.confirm –  打开“聊天或发信息”选项"
 
 #: gui/manual/intro.txt:65
 msgid "  hotkey.teamchat – Send team chat"
-msgstr "  hotkey.teamchat – 发送团队信息"
+msgstr "  hotkey.teamchat – 发送队内信息"
 
 #: gui/manual/intro.txt:66
 msgid ""
@@ -322,13 +322,13 @@ msgstr " • With hotkey.session.noconfirmation – 直接删除选中的单位�
 msgid ""
 "  hotkey.selection.add – Modifier – add to selection (works with clicking "
 "and hotkeys, e.g. the idle hotkeys)"
-msgstr "  hotkey.selection.add – Modifier – 添加到所选列表（与单击和热键一起使用，例如空闲热键）"
+msgstr "  hotkey.selection.add – Modifier – 添加到所选列表（与单击和快捷键一起使用，例如空闲快捷键）"
 
 #: gui/manual/intro.txt:71
 msgid ""
 "  hotkey.selection.remove – Modifier – remove from selection (works with "
 "clicking and hotkeys, e.g. the idle hotkeys)"
-msgstr "  hotkey.selection.add – Modifier – 移除所选列表（与单击和热键一起使用，例如空闲热键）"
+msgstr "  hotkey.selection.add – Modifier – 移除所选列表（与单击和快捷键一起使用，例如空闲快捷键）"
 
 #: gui/manual/intro.txt:72
 msgid ""
@@ -343,17 +343,17 @@ msgstr "  hotkey.selection.cancel – 取消所选单位或建筑。"
 
 #: gui/manual/intro.txt:74
 msgid "  hotkey.selection.idlebuilder – Select idle builder"
-msgstr "  hotkey.selection.idlebuilder – 选择闲散建筑工"
+msgstr "  hotkey.selection.idlebuilder – 选取闲散泥瓦匠"
 
 #: gui/manual/intro.txt:75
 msgid "  hotkey.selection.idlewarrior – Select idle fighter"
-msgstr "  hotkey.selection.idlewarrior – 选取闲散的军事单位"
+msgstr "  hotkey.selection.idlewarrior – 选取闲散士兵"
 
 #: gui/manual/intro.txt:76
 msgid ""
 "  hotkey.selection.idleworker – Select idle worker (including citizen-"
 "soldiers)"
-msgstr "  hotkey.selection.idleworker – 选取闲散的工人（包括妇女）"
+msgstr "  hotkey.selection.idleworker – 选取闲散工人（包括妇女）"
 
 #: gui/manual/intro.txt:77
 msgid "  hotkey.selection.idleunit – Select idle unit"
@@ -365,13 +365,13 @@ msgstr "  hotkey.session.stop – 停止选取当前已选定的单位"
 
 #: gui/manual/intro.txt:79
 msgid "  hotkey.session.backtowork – The unit will go back to work"
-msgstr " hotkey.session.backtowork – 单位将返回工作"
+msgstr " hotkey.session.backtowork – 单位将返回工作岗位"
 
 #: gui/manual/intro.txt:80
 msgid ""
 "  hotkey.session.unload – Unload the garrisoned units of the selected "
 "structure(s)"
-msgstr " hotkey.session.unload – 撤出驻守建筑内的单位"
+msgstr " hotkey.session.unload – 撤出驻军"
 
 #: gui/manual/intro.txt:81
 msgid ""
@@ -436,7 +436,7 @@ msgstr "  hotkey.summary – 显示/隐藏总览窗口"
 
 #: gui/manual/intro.txt:91
 msgid "  hotkey.lobby – Show the multiplayer lobby in a dialog window"
-msgstr " hotkey.lobby – 在对话框窗口中显示多人游戏大厅"
+msgstr " hotkey.lobby – 在对话框窗口中显示联机大厅"
 
 #: gui/manual/intro.txt:92
 msgid "  hotkey.session.gui.diplomacy.toggle – Toggle in-game diplomacy panel"
@@ -470,268 +470,280 @@ msgstr "[font=\"sans-bold-14\"]修改鼠标操作[font=\"sans-14\"]"
 
 #: gui/manual/intro.txt:100
 msgid "  hotkey.session.garrison + Right Click on structure – Garrison"
-msgstr "  hotkey.session.garrison + 右击建筑 – 驻军"
+msgstr "  hotkey.session.garrison + 鼠标右键建筑 – 驻军"
 
 #: gui/manual/intro.txt:101
 msgid "  hotkey.session.repair + Right Click on structure – Repair"
-msgstr "  hotkey.session.repair + 右击建筑 – 修复"
+msgstr "  hotkey.session.repair + 鼠标右键建筑 – 维修"
 
 #: gui/manual/intro.txt:102
 msgid "  hotkey.session.patrol + Right Click – Patrol"
-msgstr "  hotkey.session.patrol + 右击 – 巡逻"
+msgstr "  hotkey.session.patrol + 鼠标右键 – 巡逻"
 
 #: gui/manual/intro.txt:103
 msgid ""
 "  hotkey.session.queue + Right Click – Queue the move/build/gather/etc. "
 "order"
-msgstr "  hotkey.session.queue + Right Click – 给被选中的单位一个动作序列。包括移动，建造，采集等等。"
+msgstr "  hotkey.session.queue + 鼠标右键 – 给被选中的单位一个动作序列。包括移动、建造、采集等等。"
 
 #: gui/manual/intro.txt:104
+msgid ""
+"  hotkey.session.pushorderfront + Right Click – Modifier to push any order "
+"in front of the order queue."
+msgstr "hotkey.session.pushorderfront + 鼠标右键 – 指派当下命令为首个指令。"
+
+#: gui/manual/intro.txt:105
 msgid ""
 "  hotkey.session.orderone + Right Click – Order one unit from the current "
 "selection to move/build/gather/etc. and unselect it. Used to quickly "
 "dispatch units with specific tasks"
-msgstr " hotkey.session.orderone + Right Click – 从当前选择一个单元以移动/构建/收集/等，并取消选择它。 用于快速调度特定任务的单元。"
-
-#: gui/manual/intro.txt:105
-msgid ""
-"  hotkey.session.batchtrain + Left Click when training units – Add units in "
-"batches (the batch size is 5 by default and can be changed in the options)"
-msgstr "hotkey.session.batchtrain + 左击训练单位 –批量添加单位（默认为5，可在选项中更改）"
+msgstr " hotkey.session.orderone + 鼠标右键 – 从当前选择所有单位中将其剔除，用于快速调度特定单位以移动、建造、收集等 。"
 
 #: gui/manual/intro.txt:106
 msgid ""
-"  hotkey.selection.add + Left Click or Left Drag over unit on map – Add unit"
-" to selection"
-msgstr " hotkey.selection.add + 在地图上左击或向左拖动单位 – 把新单位加到选择队列里。"
+"  hotkey.session.batchtrain + Left Click when training units – Add units in "
+"batches (the batch size is 5 by default and can be changed in the options)"
+msgstr "hotkey.session.batchtrain + 鼠标左键训练单位 –批量训练单位（默认为5，可在选项中更改）"
 
 #: gui/manual/intro.txt:107
 msgid ""
-"  hotkey.selection.remove + Left Click or Left Drag over unit on map – "
-"Remove unit from selection"
-msgstr "  hotkey.selection.remove + 在地图上左击或向左拖动单位 – 从选取列表中删除单位"
+"  hotkey.selection.add + Left Click or Left Drag over unit on map – Add unit"
+" to selection"
+msgstr " hotkey.selection.add + 在地图上鼠标左键点选或框选单位 – 给选择队列里添加单位。"
 
 #: gui/manual/intro.txt:108
 msgid ""
-"  hotkey.selection.militaryonly + Left Drag over units on map – Only select "
-"military units"
-msgstr "  hotkey.selection.militaryonly + 在地图上向左拖动单位 – 只选取军事单位"
+"  hotkey.selection.remove + Left Click or Left Drag over unit on map – "
+"Remove unit from selection"
+msgstr "  hotkey.selection.remove + 在地图上鼠标左键点选或框选单位 – 从选取队列中删除单位"
 
 #: gui/manual/intro.txt:109
 msgid ""
-"  hotkey.selection.nonmilitaryonly + Left Drag over units on map – Only "
-"select non-military units"
-msgstr "  hotkey.selection.nonmilitaryonly + 在地图上向左拖动单位 – 只选取非军事单位"
+"  hotkey.selection.militaryonly + Left Drag over units on map – Only select "
+"military units"
+msgstr "  hotkey.selection.militaryonly + 在地图上鼠标左键框选 – 只选取军事单位"
 
 #: gui/manual/intro.txt:110
 msgid ""
-"  hotkey.selection.idleonly + Left Drag over units on map – Only select idle"
-" units"
-msgstr "  hotkey.selection.idleonly + 在地图上向左拖动单位 – 只选取闲散单位"
+"  hotkey.selection.nonmilitaryonly + Left Drag over units on map – Only "
+"select non-military units"
+msgstr "  hotkey.selection.nonmilitaryonly + 在地图上鼠标左键框选 – 只选取非军事单位"
 
 #: gui/manual/intro.txt:111
 msgid ""
-"  hotkey.selection.woundedonly + Left Drag over units on map – Only select "
-"wounded units"
-msgstr "  hotkey.selection.woundedonly + 在地图上向左拖动单位 – 只选取受伤单位"
+"  hotkey.selection.idleonly + Left Drag over units on map – Only select idle"
+" units"
+msgstr "  hotkey.selection.idleonly + 在地图上鼠标左键框选 – 只选取闲散单位"
 
 #: gui/manual/intro.txt:112
+msgid ""
+"  hotkey.selection.woundedonly + Left Drag over units on map – Only select "
+"wounded units"
+msgstr "  hotkey.selection.woundedonly + 在地图上鼠标左键框选 – 只选取受伤单位"
+
+#: gui/manual/intro.txt:113
+msgid ""
+"  hotkey.selection.singleselection – Modifier to select units individually, "
+"opposed to per formation."
+msgstr " hotkey.selection.singleselection – 单独选择单位指令，不必全部编队。"
+
+#: gui/manual/intro.txt:114
 msgid ""
 "  Right Click with a structure(s) selected – Set a rally point for units "
 "created/ungarrisoned from that structure"
 msgstr "选中一个或多个建筑，然后右键单击一个地方: 设置这些建筑的集合点."
 
-#: gui/manual/intro.txt:113
+#: gui/manual/intro.txt:115
 msgid ""
 "  hotkey.session.garrison + Right Click with unit(s) selected – Garrison (If"
 " the cursor is over an own or allied structure)"
-msgstr "hotkey.session.garrison + 右击选取单位  – 驻军（在中立或盟友建筑内）"
-
-#: gui/manual/intro.txt:114
-msgid ""
-"  hotkey.session.attack + Right Click with unit(s) selected – Attack "
-"(instead of capture or gather)"
-msgstr "  hotkey.session.attack + 右击所选单位 – 攻击（占领、采集）"
-
-#: gui/manual/intro.txt:115
-msgid ""
-"  hotkey.session.attackmove + Right Click with unit(s) selected – Attack "
-"move (by default all enemy units and structures along the way are targeted)"
-msgstr "  hotkey.session.attackmove + 右击所选单位 – 移动攻击 （默认行进路上所有的敌方单位和建筑皆为攻击目标）"
+msgstr "hotkey.session.garrison + 鼠标右键命令所选单位  – 驻军（在中立或盟友建筑内）"
 
 #: gui/manual/intro.txt:116
 msgid ""
-"  hotkey.session.attackmoveUnit + Right Click with unit(s) selected – Attack"
-" move, only units along the way are targeted"
-msgstr "  hotkey.session.attackmoveUnit + 右击所选单位 – 移动攻击行进路线上的敌方位"
+"  hotkey.session.attack + Right Click with unit(s) selected – Attack "
+"(instead of capture or gather)"
+msgstr "  hotkey.session.attack + 鼠标右键命令所选单位 – 攻击（夺占、采集）"
 
 #: gui/manual/intro.txt:117
 msgid ""
-"  hotkey.session.snaptoedges + Mouse Move near structures – Align the new "
-"structure with an existing nearby structure"
-msgstr "  hotkey.session.snaptoedges + 鼠标移近某建筑 – 让新建筑和附近已有建筑对齐建造"
+"  hotkey.session.attackmove + Right Click with unit(s) selected – Attack "
+"move (by default all enemy units and structures along the way are targeted)"
+msgstr "  hotkey.session.attackmove + 鼠标右键命令所选单位 – 进军 （默认攻击沿途所有敌方目标）"
 
 #: gui/manual/intro.txt:118
-msgid "  hotkey.session.flare + Right Click – Send a flare to your allies"
-msgstr "  hotkey.session.flare + 鼠标右击 – 向盟友发送信号"
+msgid ""
+"  hotkey.session.attackmoveUnit + Right Click with unit(s) selected – Attack"
+" move, only units along the way are targeted"
+msgstr "  hotkey.session.attackmoveUnit + 鼠标右键命令所选单位 – 进军（只攻击沿途敌方单位）"
+
+#: gui/manual/intro.txt:119
+msgid ""
+"  hotkey.session.snaptoedges + Mouse Move near structures – Align the new "
+"structure with an existing nearby structure"
+msgstr "  hotkey.session.snaptoedges + 鼠标靠近某建筑物 – 让新建筑物和附近已有建筑物对齐建造"
 
 #: gui/manual/intro.txt:120
+msgid "  hotkey.session.flare + Right Click – Send a flare to your allies"
+msgstr "  hotkey.session.flare + 鼠标右键 – 向盟友发送信号"
+
+#: gui/manual/intro.txt:122
 msgid "[font=\"sans-bold-14\"]Overlays[font=\"sans-14\"]"
 msgstr "[font=\"sans-bold-14\"]总览[font=\"sans-14\"]"
 
-#: gui/manual/intro.txt:121
+#: gui/manual/intro.txt:123
 msgid "  hotkey.session.gui.toggle – Toggle the GUI"
 msgstr "  hotkey.session.gui.toggle – 切换图形用户界面"
 
-#: gui/manual/intro.txt:122
+#: gui/manual/intro.txt:124
 msgid ""
 "  hotkey.session.devcommands.toggle – Toggle developer overlay (with "
 "developer options)"
 msgstr "  hotkey.session.devcommands.toggle – 显示/隐藏开发总览（为开发者所留）"
 
-#: gui/manual/intro.txt:123
+#: gui/manual/intro.txt:125
 msgid ""
 "  hotkey.wireframe – Toggle wireframe mode (press once to get wireframes "
 "overlaid over the textured models, twice to get just the wireframes colored "
 "by the textures, thrice to get back to normal textured mode)"
 msgstr " hotkey.wireframe – 切换线框模式（按一次可将线框叠加在带纹理的模型上，按两次可仅获得由纹理着色的线框，三次可恢复到正常的纹理模式）"
 
-#: gui/manual/intro.txt:124
+#: gui/manual/intro.txt:126
 msgid ""
 "  hotkey.silhouettes – Toggle unit silhouettes (might give a small "
 "performance boost)"
-msgstr " hotkey.silhouettes –  切换单位阴影效果(对性能可能会有一点提升)"
-
-#: gui/manual/intro.txt:125
-msgid "  hotkey.session.diplomacycolors – Toggle diplomacy colors"
-msgstr "  hotkey.session.diplomacycolors – 切换派系颜色"
-
-#: gui/manual/intro.txt:126
-msgid ""
-"  hotkey.session.toggleattackrange – Toggle attack range visualizations of "
-"selected units and structures"
-msgstr " hotkey.session.toggleattackrange – 切换所选单位/建筑的攻击范围可视化"
+msgstr " hotkey.silhouettes –  开关单位阴影效果(对性能可能会有一点提升)"
 
 #: gui/manual/intro.txt:127
-msgid ""
-"  hotkey.session.toggleaurasrange – Toggle aura range visualizations of "
-"selected units and structures"
-msgstr " hotkey.session.toggleaurasrange – 切换所选单位/建筑的光环范围可视化"
+msgid "  hotkey.session.diplomacycolors – Toggle diplomacy colors"
+msgstr "  hotkey.session.diplomacycolors – 开关阵营色"
 
 #: gui/manual/intro.txt:128
 msgid ""
-"  hotkey.session.togglehealrange – Toggle heal range visualizations of "
-"selected units"
-msgstr "hotkey.session.togglehealrange – 切换所选单位的治疗范围可视化"
+"  hotkey.session.toggleattackrange – Toggle attack range visualizations of "
+"selected units and structures"
+msgstr " hotkey.session.toggleattackrange – 开关显示所选单位/建筑物的攻击范围"
+
+#: gui/manual/intro.txt:129
+msgid ""
+"  hotkey.session.toggleaurasrange – Toggle aura range visualizations of "
+"selected units and structures"
+msgstr " hotkey.session.toggleaurasrange – 开关显示所选单位/建筑物的光环范围"
 
 #: gui/manual/intro.txt:130
+msgid ""
+"  hotkey.session.togglehealrange – Toggle heal range visualizations of "
+"selected units"
+msgstr "hotkey.session.togglehealrange – 开关显示所选单位的治疗范围"
+
+#: gui/manual/intro.txt:132
 msgid "[font=\"sans-bold-14\"]Camera manipulation[font=\"sans-14\"]"
 msgstr "[font=\"sans-bold-14\"]相机操作[font=\"sans-14\"]"
 
-#: gui/manual/intro.txt:131
+#: gui/manual/intro.txt:133
 msgid "  hotkey.camera.up – Pan screen up"
 msgstr " hotkey.camera.up – 屏幕上移"
 
-#: gui/manual/intro.txt:132
+#: gui/manual/intro.txt:134
 msgid "  hotkey.camera.down – Pan screen down"
 msgstr "hotkey.camera.down – 屏幕下移"
 
-#: gui/manual/intro.txt:133
+#: gui/manual/intro.txt:135
 msgid "  hotkey.camera.left – Pan screen left"
 msgstr " hotkey.camera.left – 屏幕左移"
 
-#: gui/manual/intro.txt:134
+#: gui/manual/intro.txt:136
 msgid "  hotkey.camera.right – Pan screen right"
 msgstr "  hotkey.camera.right – 屏幕右移"
 
-#: gui/manual/intro.txt:135
+#: gui/manual/intro.txt:137
 msgid "  hotkey.camera.rotate.up – Rotate camera to look upward"
 msgstr "  hotkey.camera.rotate.up – 抬高相机视角"
 
-#: gui/manual/intro.txt:136
+#: gui/manual/intro.txt:138
 msgid "  hotkey.camera.rotate.down – Rotate camera to look downward"
 msgstr "  hotkey.camera.rotate.down – 降低相机视角"
 
-#: gui/manual/intro.txt:137
+#: gui/manual/intro.txt:139
 msgid "  hotkey.camera.rotate.cw – Rotate camera clockwise around terrain"
 msgstr "hotkey.camera.rotate.cw – 顺时针旋转相机视角"
 
-#: gui/manual/intro.txt:138
+#: gui/manual/intro.txt:140
 msgid ""
 "  hotkey.camera.rotate.ccw – Rotate camera counter-clockwise around terrain"
 msgstr "  hotkey.camera.rotate.ccw  –逆时针旋转相机视角"
 
-#: gui/manual/intro.txt:139
+#: gui/manual/intro.txt:141
 msgid ""
 "  hotkey.camera.rotate.wheel.cw – Rotate camera clockwise around terrain"
 msgstr " hotkey.camera.rotate.wheel.cw – 顺时针旋转相机视角"
 
-#: gui/manual/intro.txt:140
+#: gui/manual/intro.txt:142
 msgid ""
 "  hotkey.camera.rotate.wheel.ccw – Rotate camera counter-clockwise around "
 "terrain"
 msgstr "  hotkey.camera.rotate.wheel.ccw –逆时针旋转相机视角"
 
-#: gui/manual/intro.txt:141
+#: gui/manual/intro.txt:143
 msgid ""
 "  hotkey.camera.follow – Follow the selected unit (move the camera to stop "
 "following the unit)"
 msgstr "  hotkey.camera.follow – 跟随选中的单位 (相机移到跟随单位)"
 
-#: gui/manual/intro.txt:142
+#: gui/manual/intro.txt:144
 msgid "  hotkey.camera.reset – Reset camera zoom and orientation"
 msgstr "  hotkey.camera.reset –  重置相机的缩放和方向"
 
-#: gui/manual/intro.txt:143
+#: gui/manual/intro.txt:145
 msgid ""
 "  hotkey.camera.zoom.in, hotkey.camera.zoom.wheel.in – Zoom in (keep pressed"
 " for continuous zoom)"
 msgstr "  hotkey.camera.zoom.in, hotkey.camera.zoom.wheel.in – 放大 (一直按着会持续放大）"
 
-#: gui/manual/intro.txt:144
+#: gui/manual/intro.txt:146
 msgid ""
 "  hotkey.camera.zoom.out, hotkey.camera.zoom.wheel.out – Zoom out (keep "
 "pressed for continuous zoom)"
 msgstr "hotkey.camera.zoom.out, hotkey.camera.zoom.wheel.out – 缩小 (一直按着会持续缩小缩放）"
 
-#: gui/manual/intro.txt:145
+#: gui/manual/intro.txt:147
 msgid "  hotkey.camera.pan – Keep pressed and move the mouse to pan"
 msgstr "  hotkey.camera.pan – 持续按着并移动鼠标来平移"
 
-#: gui/manual/intro.txt:147
+#: gui/manual/intro.txt:149
 msgid "[font=\"sans-bold-14\"]During Structure Placement[font=\"sans-14\"]"
 msgstr "[font=\"sans-bold-14\"]正在放置建筑[font=\"sans-14\"]"
 
-#: gui/manual/intro.txt:148
+#: gui/manual/intro.txt:150
 msgid ""
 "  hotkey.session.rotate.ccw – Rotate structure 15 degrees counter-clockwise"
 msgstr "hotkey.session.rotate.ccw – 逆时针旋转建筑15度"
 
-#: gui/manual/intro.txt:149
+#: gui/manual/intro.txt:151
 msgid "  hotkey.session.rotate.cw – Rotate structure 15 degrees clockwise"
 msgstr "hotkey.session.rotate.cw – 顺时针旋转建筑15度"
 
-#: gui/manual/intro.txt:150
+#: gui/manual/intro.txt:152
 msgid ""
 "  Left Drag – Rotate structure using mouse (foundation will be placed on "
 "mouse release)"
 msgstr "向左拖拽 – 用鼠标旋转建筑 (当鼠标松开时建筑的基础会被放置)"
 
-#: gui/manual/intro.txt:152
+#: gui/manual/intro.txt:154
 msgid "[font=\"sans-bold-14\"]When loading a saved game[font=\"sans-14\"]"
 msgstr "[font=\"sans-bold-14\"]当正在载入已储存的游戏时[font=\"sans-14\"]"
 
-#: gui/manual/intro.txt:153
+#: gui/manual/intro.txt:155
 msgid "  hotkey.cancel – Cancel"
 msgstr "  hotkey.cancel – 取消"
 
-#: gui/manual/intro.txt:154
+#: gui/manual/intro.txt:156
 msgid ""
 "  hotkey.session.savedgames.delete – Delete the selected saved game, ask for"
 " confirmation"
 msgstr " hotkey.session.savedgames.delete –  删除已储存的游戏，删除前会提示确认"
 
-#: gui/manual/intro.txt:155
+#: gui/manual/intro.txt:157
 msgid ""
 "    • With hotkey.session.savedgames.noconfirmation – Don't ask for "
 "confirmation"

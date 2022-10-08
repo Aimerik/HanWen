@@ -376,6 +376,10 @@ msgstr "佩特拉是默认的电脑。 可向野火游戏提交问题（请参�
 msgid "Petra Bot"
 msgstr "佩特拉"
 
+#: simulation/ai/petra/data.jsonname
+msgid "Equinox Bot"
+msgstr "春分"
+
 #: simulation/components/BuildRestrictions.js:86
 #, javascript-format
 msgid "%(name)s cannot be built due to unknown error"
@@ -838,12 +842,12 @@ msgstr "杀死对方英雄来击败对手。"
 msgid "Regicide"
 msgstr "弑君"
 
-#: simulation/data/settings/victory_conditions/conquest_civiccentres.jsonData.Title
-msgid "Conquest Civic Centres"
+#: simulation/data/settings/victory_conditions/conquest_civic_centers.jsonData.Title
+msgid "Conquest Civic Centers"
 msgstr "直捣黄龙"
 
-#: simulation/data/settings/victory_conditions/conquest_civiccentres.jsonData.Title
-msgid "Defeat opponents by destroying all their fully build civic centres."
+#: simulation/data/settings/victory_conditions/conquest_civic_centers.jsonData.Description
+msgid "Defeat opponents by destroying all their fully build civic centers."
 msgstr "摧毁或占领对方所有公署，赢得胜利。"
 
 #: simulation/data/settings/victory_conditions/wonder.jsonData.Description

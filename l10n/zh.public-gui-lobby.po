@@ -18,9 +18,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 0 A.D.\n"
-"POT-Creation-Date: 2021-01-22 08:09+0000\n"
-"PO-Revision-Date: 2021-02-23 09:27+0000\n"
-"Last-Translator: liulitchi <xingzuo88@qq.com>\n"
+"POT-Creation-Date: 2021-09-03 07:08+0000\n"
+"PO-Revision-Date: 2014-06-19 17:50+0000\n"
+"Last-Translator: liu lizhi <xingzuo88@qq.com>, 2022\n"
 "Language-Team: Chinese (http://www.transifex.com/wildfire-games/0ad/language/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,14 +42,14 @@ msgid "Rank"
 msgstr "等级"
 
 #: gui/lobby/LeaderboardPage/LeaderboardPage.xml:(heading):20
-#: gui/lobby/LobbyPage/GameList.xml:(heading):12
-#: gui/lobby/LobbyPage/PlayerList.xml:(heading):15
+#: gui/lobby/LobbyPage/GameList.xml:(heading):13
+#: gui/lobby/LobbyPage/PlayerList.xml:(heading):21
 msgid "Name"
 msgstr "名字"
 
 #: gui/lobby/LeaderboardPage/LeaderboardPage.xml:(heading):23
-#: gui/lobby/LobbyPage/GameList.xml:(heading):27
-#: gui/lobby/LobbyPage/PlayerList.xml:(heading):18
+#: gui/lobby/LobbyPage/GameList.xml:(heading):28
+#: gui/lobby/LobbyPage/PlayerList.xml:(heading):24
 msgid "Rating"
 msgstr "排位"
 
@@ -71,15 +71,15 @@ msgstr "创建游戏"
 
 #: gui/lobby/LobbyPage/Buttons/JoinButton.js:40
 msgid "Your active mods do not match the mods of this game."
-msgstr "当前Mods与此游戏Mods不匹配。"
+msgstr "当前模组不匹配其它模组。"
 
 #: gui/lobby/LobbyPage/Buttons/JoinButton.js:42
 msgid "Do you want to switch to the mod selection page?"
-msgstr "是否要切换到mod选项？"
+msgstr "是否要切换到模组项？"
 
 #: gui/lobby/LobbyPage/Buttons/JoinButton.js:43
 msgid "Incompatible mods"
-msgstr "无法兼容的Mods"
+msgstr "模组不兼容"
 
 #: gui/lobby/LobbyPage/Buttons/JoinButton.js:52
 msgid "The game has already started. Do you want to join as observer?"
@@ -112,70 +112,72 @@ msgstr "主菜单"
 
 #: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:32
 #, javascript-format
-msgid "The command '%(cmd)s' is not supported."
-msgstr "指令‘%(cmd)s’不被支持。"
+msgid ""
+"The command '%(cmd)s' is not supported. Try %(help)s to get more information"
+" about the supported commands."
+msgstr "不支持%(cmd)s指令，试试%(help)s指令来获取帮助。"
 
-#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:44
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:45
 #, javascript-format
 msgid "The command '%(cmd)s' is restricted to moderators."
 msgstr "指令‘%(cmd)s’仅限主持人使用。"
 
-#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:66
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:67
 #, javascript-format
 msgid "The command '%(cmd)s' requires at least one argument."
 msgstr "“%(cmd)s”命令至少需要添加一个参数。"
 
-#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:87
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:88
 msgid "Set your state to 'Away'."
-msgstr "将你的状态设为“离开”"
+msgstr "设置状态为“离开”。"
 
-#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:94
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:95
 msgid "Set your state to 'Online'."
-msgstr "将你的状态设为“在线”"
+msgstr "设置状态为“在线”。"
 
-#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:101
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:102
 msgid "Kick a specified user from the lobby. Usage: /kick nick reason"
-msgstr "从大厅踢出一个指定的用户。使用方法: /kick 别名 原因"
+msgstr "从大厅踢出一个指定的用户。使用方法: /kick 昵称 原因"
 
-#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:113
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:114
 msgid "Ban a specified user from the lobby. Usage: /ban nick reason"
-msgstr "从大厅禁言一个指定的用户。使用方法: /ban 别名 原因"
+msgstr "从大厅禁言一个指定的用户。使用方法: /ban 昵称 原因"
 
-#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:125
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:126
 msgid "Show this help."
 msgstr "显示此条帮助"
 
-#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:128
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:129
 msgid "Chat commands:"
 msgstr "聊天指令:"
 
 #. Translation: Chat command help format
-#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:132
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:133
 #, javascript-format
 msgid "%(command)s - %(description)s"
 msgstr "%(command)s - %(description)s"
 
-#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:146
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:147
 msgid "Send a chat message about yourself. Example: /me goes swimming."
-msgstr "发送一个关于你自己的聊天信息。例如：/我去游泳。"
+msgstr "发送一个关于你自己的聊天信息。例如：/me goes swimming 。"
 
 #. Translation: Chat command
-#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:149
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:150
 msgid "/me"
-msgstr "/我"
+msgstr "/me"
 
-#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:153
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:154
 msgid ""
 "Send text as a chat message (even if it starts with slash). Example: /say "
 "/help is a great command."
-msgstr "发送文字作为一个聊天信息(即使是以斜线开头)。例如: /说 /帮助是一个不错的指令。"
+msgstr "发送文字作为一个聊天信息(即使是以斜线开头)。例如: /say /help 是一项很好的指令。"
 
 #. Translation: Chat command
-#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:156
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:157
 msgid "/say"
-msgstr "/说"
+msgstr "/say"
 
-#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:160
+#: gui/lobby/LobbyPage/Chat/ChatCommandHandler.js:161
 msgid "Clear all chat scrollback."
 msgstr "清空之前所有的聊天记录。"
 
@@ -197,7 +199,7 @@ msgstr "%(sender)s %(message)s"
 
 #: gui/lobby/LobbyPage/Chat/ChatMessages/ChatMessagePrivateWrapper.js:23
 msgid "Private"
-msgstr "私有"
+msgstr "私密"
 
 #: gui/lobby/LobbyPage/Chat/ChatMessages/ChatMessagePrivateWrapper.js:25
 #, javascript-format
@@ -234,12 +236,12 @@ msgstr "%(nick)s已被静音。"
 
 #: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:112
 msgid "You are now a moderator."
-msgstr "你现在是主持人。"
+msgstr "现在你是主机。"
 
 #: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:113
 #, javascript-format
 msgid "%(nick)s is now a moderator."
-msgstr "%(nick)s现在是主持人。"
+msgstr "%(nick)s现在是主机。"
 
 #: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:118
 msgid "You have been unmuted."
@@ -252,12 +254,12 @@ msgstr "%(nick)s已被取消静音。"
 
 #: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:124
 msgid "You are not a moderator anymore."
-msgstr "你不再是主持人。"
+msgstr "你不再是主机。"
 
 #: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:125
 #, javascript-format
 msgid "%(nick)s is not a moderator anymore."
-msgstr "%(nick)s不再是主持人。"
+msgstr "%(nick)s不再是主机了。"
 
 #: gui/lobby/LobbyPage/Chat/StatusMessages/StatusMessageEvents.js:152
 #, javascript-format
@@ -340,13 +342,13 @@ msgid "Yes"
 msgstr "是"
 
 #. Translation: The number of players and observers in this game
-#: gui/lobby/LobbyPage/Game.js:298
+#: gui/lobby/LobbyPage/Game.js:309
 #, javascript-format
 msgid "%(current)s/%(max)s +%(observercount)s"
 msgstr "%(current)s/%(max)s +%(observercount)s"
 
 #. Translation: The number of players in this game
-#: gui/lobby/LobbyPage/Game.js:301
+#: gui/lobby/LobbyPage/Game.js:312
 #, javascript-format
 msgid "%(current)s/%(max)s"
 msgstr "%(current)s/%(max)s"
@@ -354,69 +356,84 @@ msgstr "%(current)s/%(max)s"
 #: gui/lobby/LobbyPage/GameDetails.js:65
 msgctxt "victory condition"
 msgid "Endless Game"
-msgstr "无尽的游戏"
+msgstr "无尽模式"
 
-#: gui/lobby/LobbyPage/GameDetails.js:117
+#: gui/lobby/LobbyPage/GameDetails.js:109
+#, javascript-format
+msgid ""
+"You have some incompatible mods:\n"
+"%(details)s"
+msgstr "模组不匹配：\n%(details)s"
+
+#: gui/lobby/LobbyPage/GameDetails.js:123
+msgid "This mod does not affect MP compatibility"
+msgstr "模组和多人模式不匹配"
+
+#: gui/lobby/LobbyPage/GameDetails.js:142
 #, javascript-format
 msgid "Host: %(playername)s"
 msgstr "主机：%(playername)s"
 
-#: gui/lobby/LobbyPage/GameDetails.js:119
+#: gui/lobby/LobbyPage/GameDetails.js:144
 #, javascript-format
 msgid "Players: %(current)s/%(total)s"
 msgstr "玩家 :  %(current)s/%(total)s"
 
-#: gui/lobby/LobbyPage/GameDetails.js:121
+#: gui/lobby/LobbyPage/GameDetails.js:146
 msgid "Victory Conditions:"
 msgstr "胜利条件："
 
 #. Translation: Comma used to concatenate victory conditions
-#: gui/lobby/LobbyPage/GameDetails.js:124
+#: gui/lobby/LobbyPage/GameDetails.js:149
 msgid ", "
 msgstr "，"
 
-#: gui/lobby/LobbyPage/GameDetails.js:126
+#: gui/lobby/LobbyPage/GameDetails.js:151
 msgid "Mods:"
 msgstr "模组："
 
+#: gui/lobby/LobbyPage/GameDetails.js:153
+msgid "Mods (incompatible):"
+msgstr "模组（不匹配）："
+
 #. Translation: %(time)s is the hour and minute here.
-#: gui/lobby/LobbyPage/GameDetails.js:129
+#: gui/lobby/LobbyPage/GameDetails.js:156
 #, javascript-format
 msgid "Game started at %(time)s"
 msgstr "游戏开始于%(time)s"
 
 #: gui/lobby/LobbyPage/Chat/TimestampWrapper.js:33
-#: gui/lobby/LobbyPage/GameDetails.js:131
+#: gui/lobby/LobbyPage/GameDetails.js:158
 msgid "HH:mm"
 msgstr "HH:mm"
 
-#: gui/lobby/LobbyPage/GameDetails.js:133
+#: gui/lobby/LobbyPage/GameDetails.js:160
 msgid "Map Type:"
 msgstr "地图类型："
 
-#: gui/lobby/LobbyPage/GameDetails.js:135
+#: gui/lobby/LobbyPage/GameDetails.js:162
 msgid "Map Size:"
 msgstr "地图大小:"
 
-#: gui/lobby/LobbyPage/GameDetails.js:137
+#: gui/lobby/LobbyPage/GameDetails.js:164
 msgid "Map Description:"
 msgstr "地图描述："
 
-#: gui/lobby/LobbyPage/GameList.xml:(heading):15
+#: gui/lobby/LobbyPage/GameList.xml:(heading):16
 msgid "Map Name"
 msgstr "地图名称"
 
-#: gui/lobby/LobbyPage/GameList.xml:(heading):18
+#: gui/lobby/LobbyPage/GameList.xml:(heading):19
 msgctxt "map"
 msgid "Size"
 msgstr "大小"
 
-#: gui/lobby/LobbyPage/GameList.xml:(heading):21
+#: gui/lobby/LobbyPage/GameList.xml:(heading):22
 msgctxt "map"
 msgid "Type"
 msgstr "类型"
 
-#: gui/lobby/LobbyPage/GameList.xml:(heading):24
+#: gui/lobby/LobbyPage/GameList.xml:(heading):25
 msgid "Players"
 msgstr "玩家"
 
@@ -486,30 +503,34 @@ msgstr "多人游戏大厅"
 msgid "%(nick)s (%(rating)s)"
 msgstr "%(nick)s (%(rating)s)"
 
-#: gui/lobby/LobbyPage/PlayerList.js:178
+#: gui/lobby/LobbyPage/PlayerList.js:196
 msgid "Online"
 msgstr "在线"
 
-#: gui/lobby/LobbyPage/PlayerList.js:184
+#: gui/lobby/LobbyPage/PlayerList.js:202
 msgid "Away"
 msgstr "离开"
 
-#: gui/lobby/LobbyPage/PlayerList.js:190
+#: gui/lobby/LobbyPage/PlayerList.js:208
 msgid "Busy"
 msgstr "忙碌"
 
-#: gui/lobby/LobbyPage/PlayerList.js:196
+#: gui/lobby/LobbyPage/PlayerList.js:214
 msgid "Offline"
 msgstr "离线"
 
-#: gui/lobby/LobbyPage/PlayerList.js:202
+#: gui/lobby/LobbyPage/PlayerList.js:220
 msgctxt "lobby presence"
 msgid "Unknown"
 msgstr "未知"
 
-#: gui/lobby/LobbyPage/PlayerList.xml:(heading):12
+#: gui/lobby/LobbyPage/PlayerList.xml:(heading):18
 msgid "Status"
 msgstr "状态"
+
+#: gui/lobby/LobbyPage/PlayerList.xml:(placeholder_text):4
+msgid "Search for Player"
+msgstr "寻找玩家"
 
 #: gui/lobby/LobbyPage/ProfilePanel.js:106
 msgid "N/A"
@@ -653,7 +674,7 @@ msgstr "[font=\"sans-bold-18\"]多人大厅隐私政策[/font]"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:3
 msgid "[font=\"sans-bold-14\"]Document Date:[/font] 2020-12-24"
-msgstr "[font=\"sans-bold-14\"]文件日期:[/font] 2020-12-24"
+msgstr "[font=\"sans-bold-14\"]文档日期:[/font] 2020-12-24"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:5
 msgid ""
@@ -703,7 +724,7 @@ msgid ""
 "Wildfire Games only receives an encrypted version of the password, so that "
 "the password chosen by the user is not revealed to Wildfire Games or others "
 "in case of a breach."
-msgstr "野火游戏仅接收加密版本的密码，因此如果出现违规，用户的密码不会泄露给野火游戏或其TA人。"
+msgstr "野火游戏仅接收加密版本的密码，因此如果出现违规，用户的密码不会泄露给野火游戏或其他人。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:15
 msgid "[font=\"sans-bold-14\"]3. IP address[/font]"
@@ -740,7 +761,7 @@ msgstr "    IP地址的保存时间，不超过三年。"
 msgid ""
 " 2. Make it possible to bring criminal proceedings in case of a cyberattack "
 "(EU Court of Justice Press Release No 112/16)."
-msgstr " 2. 如果发生网络攻击，可以提起刑事诉讼（欧盟法院新闻稿第112/16号）。"
+msgstr " 2.如果发生网络攻击，可以提起刑事诉讼（欧盟法院新闻稿第112/16号）。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:21
 msgid ""
@@ -784,14 +805,14 @@ msgstr " 1.版主可以屏蔽聊天消息以强制执行使用条款。"
 msgid ""
 " 2. Wildfire Games may address or resolve bug reports, balancing issues or "
 "feature proposals indicated by players in the chat room."
-msgstr " 2. 野火游戏可以记录IP地址，和解决错误报告，以回应聊天室中玩家指示的问题或提议。"
+msgstr " 2.野火游戏可以记录IP地址，和解决错误报告，以回应聊天室中玩家指示的问题或提议。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:31
 msgid ""
 " 3. Wildfire Games may assess trends amongst discussed topics, the growth of"
 " the active community and use these indicators as feedback to assess, "
 "improve and direct development of the game and the service."
-msgstr " 3. 野火游戏可评估讨论主题的趋势，和活跃社区的增长度。并将这些指标用作评估，以改进游戏及服务。"
+msgstr " 3.野火游戏可评估讨论主题的趋势，和活跃社区的增长度。并将这些指标用作评估，以改进游戏及服务。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:33
 msgid "[font=\"sans-bold-14\"]6. Match statistics[/font]"
@@ -878,14 +899,14 @@ msgid ""
 "Lobby, in the development and improvement of 0 A.D. and the Multiplayer "
 "Lobby, in enforcing the Terms of Use and in the protection against "
 "cyberattacks (GDPR 6.1.f)."
-msgstr "2. 野火游戏在开发和改进本游戏中，将合法提供多人游戏大厅服务。并执行使用条款来阻止网络攻击(GDPR 6.1.f)。"
+msgstr "2.野火游戏在开发和改进本游戏中，将合法提供多人游戏大厅服务。并执行使用条款来阻止网络攻击(GDPR 6.1.f)。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:51
 msgid ""
 "3. Wildfire Games does not process any further data for the Multiplayer "
 "Lobby and does not ask for consent to process data (GDPR 6.1.a, GDPR 7, GDPR"
 " 8, GDPR 13.2.c)."
-msgstr "3. 在多人游戏大厅里，野火游戏不会客观获取，更不会主动要求提供进一步的数据。"
+msgstr "3.在多人游戏大厅里，野火游戏不会客观获取，更不会主动要求提供进一步的数据。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:53
 msgid "[font=\"sans-bold-16\"]User rights:[/font]"
@@ -895,7 +916,7 @@ msgstr "[font=\"sans-bold-16\"]用户权利:[/font]"
 msgid ""
 "1. Contact Wildfire Games, by sending an email to webmaster at wildfiregames"
 " dot com (GDPR 13.1.a, GDPR 13.1.b)."
-msgstr "1. 欲联系野火游戏，可以发送邮件，或登录官网 wildfiregames.com"
+msgstr "1.欲联系野火游戏，可以发送邮件，或登录官网 wildfiregames.com"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:55
 msgid "   To exercise any user right, please refer to this contact."
@@ -903,16 +924,16 @@ msgstr "    要行使任何用户权利，请参阅此文档。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:56
 msgid "2. Right of access to personal data concerning him or her (GDPR 15)."
-msgstr "2. 有访问自己的个人数据的权利(GDPR 15)。"
+msgstr "2.有访问自己的个人数据的权利(GDPR 15)。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:57
 msgid ""
 "3. Right to obtain personal data in a machine-readable format (GDPR 20)."
-msgstr "3. 有获取机读格式个人数据的权利。"
+msgstr "3.有获取机读格式个人数据的权利。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:58
 msgid "4. Right to rectification of inaccurate personal data (GDPR 16)."
-msgstr "4. 对个人数据纠错的权利（GDPR 16）。"
+msgstr "4.对个人数据纠错的权利（GDPR 16）。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:59
 msgid ""
@@ -954,14 +975,14 @@ msgstr "[font=\"sans-bold-16\"]野火游戏应尽义务:[/font]"
 msgid ""
 " 1. Wildfire Games demonstrates compliance with GDPR (GDPR 5.2 "
 "'accountability')."
-msgstr " 1. 野火游戏表明符合GDPR（GDPR 5.2'责任'）。"
+msgstr " 1.野火游戏表明符合GDPR（GDPR 5.2'责任'）。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:67
 msgid ""
 " 2. Wildfire Games documents their processing activities appropriately, in "
 "particular the categories of processed personal data and security measures "
 "to protect it (GDPR 30)."
-msgstr " 2. 适当情况下，野火游戏会记录处理活动，特别是个人数据类别和安全措施保护（GDPR 30）。"
+msgstr " 2.适当情况下，野火游戏会记录处理活动，特别是个人数据类别和安全措施保护（GDPR 30）。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:68
 msgid ""
@@ -976,19 +997,19 @@ msgid ""
 "is processed, recipients of personal data and where applicable, transfer of "
 "personal data to third countries and automated decision-making (GDPR "
 "13.1.c-f, GDPR 13.2.a, GDPR 13.2.e-f, GDPR 15.1, GDPR 15.4)."
-msgstr "4. 野火游戏告知用户处理时个人数据处理的目的，法律依据，合法利益和保留期限，个人数据的接收者以及适用的个人数据传输到第三国和自动决策（ GDPR 13.1.cf，GDPR 13.2.a，GDPR 13.2.ef，GDPR 15.1，GDPR 15.4）。"
+msgstr "4.野火游戏告知用户处理时个人数据处理的目的，法律依据，合法利益和保留期限，个人数据的接收者以及适用的个人数据传输到第三国和自动决策（ GDPR 13.1.cf，GDPR 13.2.a，GDPR 13.2.ef，GDPR 15.1，GDPR 15.4）。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:70
 msgid ""
 " 5. Wildfire Games does not processes personal data for purposes other than "
 "the specified ones (GDPR 5.1.b, 'purpose limitation', GDPR 13.3)."
-msgstr " 5. 野火游戏不会为指定目的以外的目的处理个人数据（GDPR 5.1.b，'目的限制'，GDPR 13.3）。"
+msgstr " 5.野火游戏不会为指定目的以外的目的处理个人数据（GDPR 5.1.b，'目的限制'，GDPR 13.3）。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:71
 msgid ""
 " 6. Wildfire Games does not process personal data that is not needed for the"
 " specified purposes (GDPR 5.1.c, 'data minimization')."
-msgstr " 6. 野火游戏不会为特殊目的获取个人信息。（GDPR 5.1.c，“数据最小化”）。"
+msgstr " 6.野火游戏不会为特殊目的获取个人信息。（GDPR 5.1.c，“数据最小化”）。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:72
 msgid ""
@@ -1002,7 +1023,7 @@ msgid ""
 " 8. Wildfire Games secures personal data processing to prevent unauthorised "
 "or unlawful processing and accidental loss (GDPR 5.1.f. 'integrity and "
 "confidentiality')."
-msgstr " 8. 野火游戏保护个人数据处理，以防止未经授权或非法处理和意外丢失（GDPR 5.1.f.“完整性和机密性”）。"
+msgstr " 8.野火游戏保护个人数据处理，以防止未经授权或非法处理和意外丢失（GDPR 5.1.f.“完整性和机密性”）。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:74
 msgid ""
@@ -1010,20 +1031,20 @@ msgid ""
 "erase personal data and the right to restrict, to withdraw consent to, to "
 "object to personal data processing and to complain at a supervisory "
 "authority (GDPR 13.2.b, GDPR 13.2.c, GDPR 13.2.d)."
-msgstr " 9. 野火游戏告知用户他们有权访问，纠正，删除个人数据以及限制，撤销同意，反对个人数据处理和向监管机构投诉的权利（GDPR 13.2.b，GDPR 13.2。 c，GDPR 13.2.d）。"
+msgstr " 9.野火游戏告知用户他们有权访问，纠正，删除个人数据以及限制，撤销同意，反对个人数据处理和向监管机构投诉的权利（GDPR 13.2.b，GDPR 13.2。 c，GDPR 13.2.d）。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:75
 msgid ""
 "10. Wildfire Games facilitates the exercise of user rights where possible "
 "(GDPR 12.2), without undue delay (GDPR 12.3)."
-msgstr "10. 野火游戏应有助于尽可能行使用户权利（GDPR 12.2），不得无故拖延（GDPR 12.3）。"
+msgstr "10.野火游戏应有助于尽可能行使用户权利（GDPR 12.2），不得无故拖延（GDPR 12.3）。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:76
 msgid ""
 "11. Wildfire Games informs the users that to exercise their rights, users "
 "might need to provide additional information to identify the natural person "
 "or the data (GDPR 12.6, GDPR 13.2.e)."
-msgstr "11. 野火游戏提示用户:为了行使个人权利，用户可能需要提供额外信息，以识别自然人或数据（GDPR 12.6，GDPR 13.2.e）。"
+msgstr "11.野火游戏提示用户:为了行使个人权利，用户可能需要提供额外信息，以识别自然人或数据（GDPR 12.6，GDPR 13.2.e）。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:77
 msgid ""
@@ -1031,7 +1052,7 @@ msgid ""
 "under the age of 13 (Children's Online Privacy Protection Act). If you "
 "believe Wildfire Games received any personal data from or about a child "
 "under 13, please contact Wildfire Games."
-msgstr "12. 野火游戏不会故意收集13岁以下儿童的个人数据（儿童在线隐私保护法）。 如果您认为野火游戏收到了13岁以下儿童的任何个人数据，请联系野火游戏。"
+msgstr "12.野火游戏不会故意收集13岁以下儿童的个人数据（儿童在线隐私保护法）。 如果您认为野火游戏收到了13岁以下儿童的任何个人数据，请联系野火游戏。"
 
 #: gui/prelobby/common/terms/Privacy_Policy.txt:78
 msgid ""
@@ -1066,7 +1087,7 @@ msgid ""
 " by Wildfire Games that allows players to set up online multiplayer matches,"
 " discuss the game in a public chat room and gain a rating that reflects "
 "their skill."
-msgstr "0 A.D. 多人大厅是野火游戏提供的在线服务，允许玩家设置在线多人游戏，在公共聊天室讨论游戏，并获得自身技能评级。"
+msgstr "0 A.D.联机大厅是野火游戏提供的在线服务，允许玩家设置在线多人游戏，在公共聊天室讨论游戏，并获得自身技能评级。"
 
 #: gui/prelobby/common/terms/Terms_of_Service.txt:7
 msgid ""
@@ -1084,7 +1105,7 @@ msgstr "进入多人游戏大厅，需年满13周岁。"
 msgid ""
 "[font=\"sans-bold-14\"]By using the 0 A.D. Multiplayer Lobby, you agree "
 "to:[/font]"
-msgstr "[font=\"sans-bold-14\"]使用多人大厅, 你同意:[/font]"
+msgstr "[font=\"sans-bold-14\"]使用联机大厅, 你同意:[/font]"
 
 #: gui/prelobby/common/terms/Terms_of_Service.txt:11
 msgid " 1. Follow all usage policies."
@@ -1095,14 +1116,14 @@ msgid ""
 " 2. Not use the service with third-party software or mods that prevents the "
 "user from being informed of updated Terms and Conditions, unless authorized "
 "by a Wildfire Games team member."
-msgstr " 2. 除非野火游戏团队授权，否则不得将该服务与第三方软件或mods一起使用，以防止用户无法获取更新的条款和条件。"
+msgstr " 2.除非野火游戏团队授权，否则不得将该服务与第三方软件或mods一起使用，以防止用户无法获取更新的条款和条件。"
 
 #: gui/prelobby/common/terms/Terms_of_Service.txt:13
 msgid ""
 " 3. Use the service at your own risk. Wildfire Games does not take "
 "responsibility for the content posted by users or damages resulting from "
 "this service."
-msgstr " 3.使用本服务风险自负。 野火游戏不对用户发布的内容或此服务造成的损害承担责任。"
+msgstr " 3.使用本服务风险自负。野火游戏不对用户发布的内容或此服务造成的损害承担责任。"
 
 #: gui/prelobby/common/terms/Terms_of_Service.txt:15
 msgid "[font=\"sans-bold-14\"]Wildfire Games reserves the right to:[/font]"
@@ -1116,7 +1137,7 @@ msgstr " 1.审核服务，即通过限制，暂停或终止用户帐户来强制
 
 #: gui/prelobby/common/terms/Terms_of_Service.txt:17
 msgid " 2. Appoint others to moderate the service."
-msgstr " 2. 委任其他人运营服务。"
+msgstr " 2.委任其他人运营服务。"
 
 #: gui/prelobby/common/terms/Terms_of_Service.txt:18
 msgid " 3. Discontinue or interrupt any part of the service at any time."
@@ -1146,34 +1167,37 @@ msgstr "若部分条款被认定为非法或不可执行，其余条款仍然适
 msgid ""
 "[font=\"sans-bold-18\"]0 A.D. Empires Ascendant Multiplayer Lobby Terms of "
 "Use[/font]"
-msgstr "0 A.D. Empires Ascendant 多人大厅使用条款"
+msgstr "0 A.D.帝国崛起联机大厅使用条款"
 
 #: gui/prelobby/common/terms/Terms_of_Use.txt:3
-msgid "[font=\"sans-bold-14\"]Document Date:[/font] 2018-10-13"
-msgstr "[font=\"sans-bold-14\"]文件日期:[/font] 2018-10-13"
+msgid "[font="sans-bold-14"]Document Date:[/font] 2022-09-01"
+msgstr "[font="sans-bold-14"]文档日期:[/font] 2022-09-01"
 
 #: gui/prelobby/common/terms/Terms_of_Use.txt:6
 msgid ""
-" 1. Only create one account per person on the service unless authorized by "
-"Wildfire Games."
-msgstr " 1. 每人只能在服务上创建一个帐户，除非经野火游戏授权。"
+"    b. Not share your account with anyone and not publish or divulge to anyone the account password."
+msgstr "b.不要与任何人共享您的帐户，也不要向任何人发布或泄露帐户密码。"
+
+#: gui/prelobby/common/terms/Terms_of_Use.txt:6
+msgid " 1. a. Only create one account per person on the service unless authorized by Wildfire Games."
+msgstr "1.a.除非获得野火游戏授权，否则每人只能在服务器上创建一个帐户。"
 
 #: gui/prelobby/common/terms/Terms_of_Use.txt:7
 msgid ""
 " 2. Not impersonate other users of the service and only use your registered "
 "username in multiplayer matches."
-msgstr " 2. 不冒充该服务器的其他用户，仅在多人游戏匹配中使用你注册的用户名。"
+msgstr " 2.不冒充该服务器的其他用户，仅在多人游戏匹配中使用你注册的用户名。"
 
 #: gui/prelobby/common/terms/Terms_of_Use.txt:8
 msgid " 3. Not post profanity, pejorative terms or pornographic content."
-msgstr " 3. 不发布亵渎他人，贬低或色情内容。"
+msgstr " 3.不发布亵渎他人，贬低或色情内容。"
 
 #: gui/prelobby/common/terms/Terms_of_Use.txt:9
 msgid ""
 " 4. Not harass, harm, intimidate, discriminate, threaten, defame, cause "
 "damage to others or purposefully demean the worth of others using this "
 "service."
-msgstr " 4. 不得在服务器中骚扰、伤害、恐吓、歧视、威胁、诽谤、造成伤害或故意贬低TA人。"
+msgstr " 4.不得在服务器中骚扰、伤害、恐吓、歧视、威胁、诽谤、造成伤害或故意贬低他人。"
 
 #: gui/prelobby/common/terms/Terms_of_Use.txt:10
 msgid ""
@@ -1181,11 +1205,11 @@ msgid ""
 "information (for example real name, location, ID) or private details (for "
 "example social media or messenger account names) of others without their "
 "consent."
-msgstr " 5. 未经TA人同意，不得通过披露TA人的个人身份信息（例如真实姓名，地点，身份证）或私人信息（例如社交媒体或账户名称），来侵犯别人隐私。"
+msgstr " 5.未经他人同意，不得通过披露他人的个人身份信息（例如真实姓名，地点，身份证）或私人信息（例如社交媒体或账户名称），来侵犯别人隐私。"
 
 #: gui/prelobby/common/terms/Terms_of_Use.txt:11
 msgid " 6. Not incite violence or promote illegal acts."
-msgstr " 6. 不得煽动暴力，或非法宣传。"
+msgstr " 6.不得煽动暴力，或非法宣传。"
 
 #: gui/prelobby/common/terms/Terms_of_Use.txt:12
 msgid ""
@@ -1193,26 +1217,26 @@ msgid ""
 "any of the statistics which impact it. (Examples of this are, but are not "
 "limited to: cheating in ranked games, reverse engineering the service, and "
 "taking advantage of other users of the service.)"
-msgstr " 7. 不试图人为调整任何使用者的服务的排行或统计数据。 (包含但不限于：在排名游戏中作弊、对此服务进行逆向工程，或是利用其他本服务的使用者。)"
+msgstr " 7.不试图人为调整任何使用者的服务的排行或统计数据。 (包含但不限于：在排名游戏中作弊、对此服务进行逆向工程，或是利用其他本服务的使用者。)"
 
 #: gui/prelobby/common/terms/Terms_of_Use.txt:13
 msgid ""
 " 8. Not undermine the intended gameplay or purposefully gain unfair "
 "advantages in multiplayer matches (for example cheating, using exploits or "
 "bugs)."
-msgstr " 8. 不可破坏预期的游戏玩法，或有目的地在多人游戏中获得不公平的优势（例如作弊，或使用漏洞）。"
+msgstr " 8.不可破坏预期的游戏玩法，或有目的地在多人游戏中获得不公平的优势（例如作弊，或使用漏洞）。"
 
 #: gui/prelobby/common/terms/Terms_of_Use.txt:14
 msgid ""
 " 9. Not spam the service and not post large amounts of repetitive or "
 "unwanted messages."
-msgstr " 9. 禁止垃圾邮件，不要发布大量重复或不需要的邮件。"
+msgstr " 9.禁止垃圾邮件，不要发布大量重复或不需要的邮件。"
 
 #: gui/prelobby/common/terms/Terms_of_Use.txt:15
 msgid ""
 "10. Not use the service to promote specific goods, services, or products "
 "unless authorized by Wildfire Games."
-msgstr " 10. 非经野火游戏授权，不得使用该服务来宣传特定商品、服务或产品。"
+msgstr " 10.非经野火游戏授权，不得使用该服务来宣传特定商品、服务或产品。"
 
 #: gui/prelobby/common/terms/Terms_of_Use.txt:17
 msgid ""

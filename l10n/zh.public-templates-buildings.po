@@ -344,7 +344,7 @@ msgid ""
 "Build upon a shoreline in own, neutral, or allied territory. Acquire large "
 "tracts of territory. Territory root. Train Citizens, construct Ships, and "
 "research technologies. Garrison Soldiers for additional arrows."
-msgstr "可建在中立或己方土地的海岸，扩张大片疆域。训练民兵，建造船舶，研发技术，驻军来强化火力。"
+msgstr "可建在中立地区或己方疆域内的海岸，扩张大片疆域。训练民兵，建造船舶，研发技术，驻军来强化火力。"
 
 #: simulation/templates/structures/brit/defense_tower.xml:9
 #: simulation/templates/structures/brit/sentry_tower.xml:5
@@ -386,8 +386,8 @@ msgstr "堡垒"
 #: simulation/templates/structures/kush/fortress.xml:10
 #: simulation/templates/structures/mace/fortress.xml:10
 #: simulation/templates/structures/rome/fortress.xml:6
-msgid "Territory root. Train Heroes. Garrison Soldiers for additional arrows."
-msgstr "堡垒"
+msgid "Build in own or neutral territory. Acquire large tracts of territory.Territory root. Train Champion and research technologies. Garrison Soldiers for additional arrows."
+msgstr "可建立在中立地区或己方疆域内，扩张疆域，训练精锐，研发技术，驻军可强化火力。"
 
 #: simulation/templates/structures/brit/house.xml:9
 #: simulation/templates/structures/gaul/house.xml:5
@@ -556,11 +556,8 @@ msgid "Cothon"
 msgstr "船坞"
 
 #: simulation/templates/structures/cart/super_dock.xml:41
-msgid ""
-"Build upon a shoreline in own, neutral, or allied territory. Acquire large "
-"tracts of territory. Territory root. Construct Warships and research "
-"technologies."
-msgstr "可建在中立或己方土地的海岸，扩张大片领地。修建战舰，研发技术。"
+msgid "Build upon a shoreline in own, neutral, or allied territory. Territory root. Construct Warships and research technologies."
+msgstr "可建立在中立地区或己方和盟友疆域内的海岸，可建造战船，研发技术。"
 
 #: simulation/templates/structures/cart/super_dock.xml:43
 msgid "Shipyard"
@@ -1253,6 +1250,18 @@ msgstr "民居"
 msgid "Inn"
 msgstr "客栈"
 
+#: simulation/templates/structures/pers/ice_house.xml:25
+msgid "Ice House"
+msgstr "冰窑"
+
+#: simulation/templates/structures/pers/ice_house.xml:26
+msgid "Yakhchāl"
+msgstr "冰窑"
+
+#: simulation/templates/structures/pers/ice_house.xml:27
+msgid "IceHouse"
+msgstr "冰窑"
+
 #: simulation/templates/structures/pers/outpost.xml:5
 msgid "Didebani"
 msgstr "望楼"
@@ -1292,6 +1301,178 @@ msgstr "库房"
 msgid "Hanging Gardens of Babylon"
 msgstr "巴比伦高台花园"
 
+#: simulation/templates/structures/han/academy.xml:27
+msgid "Imperial Academy"
+msgstr "大营"
+
+#: simulation/templates/structures/han/academy.xml:28
+msgid "Dìguó Xuéyuàn"
+msgstr "大营"
+
+#: simulation/templates/structures/han/academy.xml:30
+msgid "Train Champions and research their technologies."
+msgstr "训练精锐单位，研究相关技术。"
+
+#: simulation/templates/structures/han/academy.xml:31
+msgid "Academy"
+msgstr "学院"
+
+#: simulation/templates/structures/han/arsenal.xml:8
+msgid "Bīnggōng Chǎng"
+msgstr "木作"
+
+#: simulation/templates/structures/han/barracks.xml:12
+msgid "Jūn Yíng"
+msgstr "营"
+
+#: simulation/templates/structures/han/civil_centre.xml:12
+msgid "Gōngdiàn"
+msgstr "朝廷"
+
+#: simulation/templates/structures/han/civil_centre.xml:33
+msgid ""
+"This greatly increases the health, capture resistance, and garrison capacity"
+" of this specific Civic Center. Unlock training of Heroes here and reduce "
+"its research and batch training times by half."
+msgstr ""
+
+#: simulation/templates/structures/han/civil_centre_court.xml:17
+msgid "Imperial Court"
+msgstr "宫廷"
+
+#: simulation/templates/structures/han/civil_centre_court.xml:18
+msgid "Cháotíng"
+msgstr "朝廷"
+
+#: simulation/templates/structures/han/civil_centre_court.xml:19
+msgid "ImperialCourt"
+msgstr "宫廷"
+
+#: simulation/templates/structures/han/corral.xml:9
+msgid "Xù Lán"
+msgstr "圈"
+
+#: simulation/templates/structures/han/defense_tower.xml:12
+msgid "Fángyù Tǎ"
+msgstr "墩"
+
+#: simulation/templates/structures/han/dock.xml:9
+msgid "Mǎtóu"
+msgstr "埠"
+
+#: simulation/templates/structures/han/farmstead.xml:17
+msgid "Nóng Shè"
+msgstr "仓"
+
+#: simulation/templates/structures/han/field.xml:15
+msgid "Dàotián"
+msgstr "田"
+
+#: simulation/templates/structures/han/field.xml:16
+msgid "Rice Paddy"
+msgstr "农田"
+
+#: simulation/templates/structures/han/field_grain.xml:5
+msgid "Tián"
+msgstr "田"
+
+#: simulation/templates/structures/han/forge.xml:12
+msgid "Duànzào Chǎng"
+msgstr "铁作"
+
+#: simulation/templates/structures/han/fortress.xml:12
+#: simulation/templates/structures/han/fortress_old.xml:12
+msgid "Bǎolěi"
+msgstr "垒"
+
+#: simulation/templates/structures/han/house.xml:12
+msgid "Mín Jū"
+msgstr "屋"
+
+#: simulation/templates/structures/han/market.xml:9
+msgid "Jíshì"
+msgstr "市"
+
+#: simulation/templates/structures/han/ministry.xml:36
+msgid "Imperial Ministry"
+msgstr "公卿"
+
+#: simulation/templates/structures/han/ministry.xml:37
+msgid "Guān Shǔ"
+msgstr "官司"
+
+#: simulation/templates/structures/han/ministry.xml:39
+msgid "ImperialMinistry"
+msgstr "公卿"
+
+#: simulation/templates/structures/han/ministry.xml:40
+msgid ""
+"Train the Nine Ministers. Territory root. Research a powerful suite of "
+"Administrative technologies."
+msgstr "影响土地，可训练9名吏，研究相关技术。"
+
+#: simulation/templates/structures/han/outpost.xml:5
+msgid "Wànglóu"
+msgstr "望楼"
+
+#: simulation/templates/structures/han/sentry_tower.xml:5
+msgid "Shào Tǎ"
+msgstr "墩"
+
+#: simulation/templates/structures/han/palisades_curve.xml:10
+#: simulation/templates/structures/han/palisades_long.xml:4
+#: simulation/templates/structures/han/palisades_medium.xml:4
+#: simulation/templates/structures/han/palisades_short.xml:4
+#: simulation/templates/structures/han/wallset_palisade.xml:5
+msgid "Bamboo Stockade"
+msgstr "栅"
+
+#: simulation/templates/structures/han/palisades_gate.xml:4
+msgid "Bamboo Stockade Gate"
+msgstr "门"
+
+#: simulation/templates/structures/han/palisades_tower.xml:4
+msgid "Bamboo Stockade Tower"
+msgstr "栅"
+
+#: simulation/templates/structures/han/range.xml:12
+msgid "Bǎ Chǎng"
+msgstr "靶场"
+
+#: simulation/templates/structures/han/stable.xml:12
+msgid "Mǎ Jiù"
+msgstr "厩"
+
+#: simulation/templates/structures/han/storehouse.xml:17
+msgid "Cāngkù"
+msgstr "库"
+
+#: simulation/templates/structures/han/temple.xml:12
+msgid "Sìmiào"
+msgstr "庙"
+
+#: simulation/templates/structures/han/wall_gate.xml:9
+msgid "Chéng Mén"
+msgstr "城门"
+
+#: simulation/templates/structures/han/wall_long.xml:9
+#: simulation/templates/structures/han/wall_medium.xml:9
+#: simulation/templates/structures/han/wall_short.xml:9
+msgid "Chéng Yuán"
+msgstr "垣"
+
+#: simulation/templates/structures/han/wall_tower.xml:9
+msgid "Chéng Lóu"
+msgstr "角楼"
+
+#: simulation/templates/structures/han/wallset_stone.xml:5
+msgid "Yōng"
+msgstr "墉"
+
+#: simulation/templates/structures/han/wonder.xml:12
+msgid "Míngtáng Bìyōng"
+msgstr "明堂辟雍"
+
 #: simulation/templates/structures/ptol/elephant_stables.xml:5
 #: simulation/templates/structures/sele/elephant_stables.xml:5
 msgid "Stathmos tōn Elepantōn"
@@ -1310,7 +1491,7 @@ msgstr "亚历山大灯塔"
 msgid ""
 "Build upon a shoreline in own, neutral, or allied territory. Very large "
 "vision range."
-msgstr "可以在己方、盟友和中立的海岸建立，获得所有沿海地区和水域的视野。"
+msgstr "可建立在中立地区或己方和盟友疆域内的海岸，获得所有沿海地区和水域的视野。"
 
 #: simulation/templates/structures/ptol/mercenary_camp.xml:27
 msgid "Mercenary Camp"
@@ -1360,8 +1541,8 @@ msgid "Castra"
 msgstr "营垒"
 
 #: simulation/templates/structures/rome/army_camp.xml:75
-msgid "Build in neutral or enemy territory. Train Advanced Melee Infantry. Garrison Soldiers for additional arrows."
-msgstr "在中立或敌方土地上建造，训练老练步兵，驻军以强化火力。"
+msgid "Build in neutral or enemy territory. Train Infantry. Garrison Soldiers for additional arrows."
+msgstr "可建立在中立地区或敌方疆域内，可训练步兵，驻军可强化火力。"
 
 #: simulation/templates/structures/rome/army_camp.xml:40
 #: simulation/templates/structures/rome/army_camp.xml:77
@@ -1441,14 +1622,14 @@ msgstr "城门"
 #: simulation/templates/structures/rome/siege_wall_tower.xml:35
 #: simulation/templates/structures/rome/wallset_siege.xml:9
 msgid "SiegeWall"
-msgstr "土墙"
+msgstr "围墙"
 
 #: simulation/templates/structures/rome/siege_wall_long.xml:26
 #: simulation/templates/structures/rome/siege_wall_medium.xml:23
 #: simulation/templates/structures/rome/siege_wall_short.xml:23
 #: simulation/templates/structures/rome/wallset_siege.xml:5
 msgid "Siege Wall"
-msgstr "土墙"
+msgstr "围墙"
 
 #: simulation/templates/structures/rome/siege_wall_long.xml:27
 #: simulation/templates/structures/rome/siege_wall_medium.xml:24
@@ -1636,7 +1817,7 @@ msgid ""
 "Build in own or neutral territory. Acquire large tracts of territory. "
 "Territory root. Train Citizens and research technologies. Garrison Soldiers "
 "for additional arrows."
-msgstr "可建在中立土地或己方疆域内，扩张大片疆域。训练民兵，研发技术，驻守士兵来强化火力。"
+msgstr "可建在中立地区或己方疆域内，扩张疆域。训练公民，研发技术，驻军可强化火力。"
 
 #: simulation/templates/template_structure_civic_civil_centre.xml:46
 #: simulation/templates/template_structure_civic_civil_centre.xml:83
@@ -1728,7 +1909,7 @@ msgstr "在己方或中立的土地上建造。"
 #: simulation/templates/template_structure_defensive_palisade.xml:17
 #: simulation/templates/template_structure_defensive_palisade.xml:20
 msgid "Palisade"
-msgstr "木墙"
+msgstr "栅栏"
 
 #: simulation/templates/structures/wallset_palisade.xml:5
 #: simulation/templates/template_structure_defensive_palisade.xml:19
@@ -1811,11 +1992,11 @@ msgstr "碉楼"
 #: simulation/templates/template_structure_defensive_wall.xml:23
 #: simulation/templates/template_structure_defensive_wall.xml:26
 msgid "Wall"
-msgstr "墙"
+msgstr "城墙"
 
 #: simulation/templates/template_structure_defensive_wall.xml:25
 msgid "Wall off your town for a stout defense."
-msgstr "在城镇周围建造墙，可以用来侦查和防御。"
+msgstr "在城镇周围建造城墙，可以用来侦查和防御。"
 
 #: simulation/templates/structures/palisades_gate.xml:23
 #: simulation/templates/template_structure_defensive_wall_gate.xml:22
@@ -1921,7 +2102,7 @@ msgstr "码头"
 msgid ""
 "Build upon a shoreline in own, neutral, or allied territory. Establish trade"
 " routes. Construct Ships and research Ship technologies."
-msgstr "建立在海岸边，用于建造各种船舶和进行海上贸易和海军技术改良。"
+msgstr "可建立中立地区或己方和盟友疆域内的海岸，可建造各种船舶和进行海上贸易和海军技术改良。"
 
 #: simulation/templates/structures/brit/crannog.xml:17
 #: simulation/templates/structures/cart/super_dock.xml:43
@@ -1964,7 +2145,7 @@ msgstr "堡垒"
 
 #: simulation/templates/template_structure_military_fortress.xml:71
 msgid "Territory root. Garrison Soldiers for additional arrows."
-msgstr "影响土地，驻军以强化火力。"
+msgstr "影响土地，驻军可强化火力。"
 
 #: simulation/templates/template_structure_military_range.xml:22
 msgid "Practice Range"

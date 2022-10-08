@@ -1,8 +1,9 @@
 {
-	"name": "zh-lang",
-	"version": "0.0.25b.05",
+	"name": "Hàn Wén",
+	"version": "0.26.2",
 	"label": "biāozhǔnhànwén Language Pack",
-	"url": "play0ad.com",
+	"url": "www.moddb.com",
 	"description": "biāozhǔnhànwén Fonts and Translations",
-	"dependencies": ["0ad=0.0.25"]
-}
+	"dependencies": ["0ad=0.0.26"],
+	"ignoreInCompatibilityChecks": true
+}   
