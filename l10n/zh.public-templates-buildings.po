@@ -1318,11 +1318,11 @@ msgid "Academy"
 msgstr "学院"
 
 #: simulation/templates/structures/han/arsenal.xml:8
-msgid "Bīnggōng Chǎng"
+msgid "Mù Zuò"
 msgstr "木作"
 
 #: simulation/templates/structures/han/barracks.xml:12
-msgid "Jūn Yíng"
+msgid "Yíng"
 msgstr "营"
 
 #: simulation/templates/structures/han/civil_centre.xml:12
@@ -1337,31 +1337,31 @@ msgid ""
 msgstr ""
 
 #: simulation/templates/structures/han/civil_centre_court.xml:17
-msgid "Imperial Court"
+msgid "Gōng Tíng"
 msgstr "宫廷"
 
-#: simulation/templates/structures/han/civil_centre_court.xml:18
-msgid "Cháotíng"
-msgstr "朝廷"
+#: simulation/templates/structures/han/civil_centre.xml:18
+msgid "Guān Sī"
+msgstr "官司"
 
 #: simulation/templates/structures/han/civil_centre_court.xml:19
 msgid "ImperialCourt"
 msgstr "宫廷"
 
 #: simulation/templates/structures/han/corral.xml:9
-msgid "Xù Lán"
+msgid "Juàn"
 msgstr "圈"
 
 #: simulation/templates/structures/han/defense_tower.xml:12
-msgid "Fángyù Tǎ"
+msgid "Dūn"
 msgstr "墩"
 
 #: simulation/templates/structures/han/dock.xml:9
-msgid "Mǎtóu"
+msgid "Bù"
 msgstr "埠"
 
 #: simulation/templates/structures/han/farmstead.xml:17
-msgid "Nóng Shè"
+msgid "Cāng"
 msgstr "仓"
 
 #: simulation/templates/structures/han/field.xml:15
@@ -1370,27 +1370,27 @@ msgstr "田"
 
 #: simulation/templates/structures/han/field.xml:16
 msgid "Rice Paddy"
-msgstr "农田"
+msgstr "稻田"
 
 #: simulation/templates/structures/han/field_grain.xml:5
 msgid "Tián"
 msgstr "田"
 
 #: simulation/templates/structures/han/forge.xml:12
-msgid "Duànzào Chǎng"
+msgid "Tiě Zuò"
 msgstr "铁作"
 
 #: simulation/templates/structures/han/fortress.xml:12
 #: simulation/templates/structures/han/fortress_old.xml:12
-msgid "Bǎolěi"
+msgid "lěi"
 msgstr "垒"
 
 #: simulation/templates/structures/han/house.xml:12
-msgid "Mín Jū"
+msgid "Wū"
 msgstr "屋"
 
 #: simulation/templates/structures/han/market.xml:9
-msgid "Jíshì"
+msgid "Shì"
 msgstr "市"
 
 #: simulation/templates/structures/han/ministry.xml:36
@@ -1398,8 +1398,8 @@ msgid "Imperial Ministry"
 msgstr "公卿"
 
 #: simulation/templates/structures/han/ministry.xml:37
-msgid "Guān Shǔ"
-msgstr "官司"
+msgid "Gōng"
+msgstr "宫"
 
 #: simulation/templates/structures/han/ministry.xml:39
 msgid "ImperialMinistry"
@@ -1416,7 +1416,7 @@ msgid "Wànglóu"
 msgstr "望楼"
 
 #: simulation/templates/structures/han/sentry_tower.xml:5
-msgid "Shào Tǎ"
+msgid "Dūn"
 msgstr "墩"
 
 #: simulation/templates/structures/han/palisades_curve.xml:10
@@ -1424,15 +1424,15 @@ msgstr "墩"
 #: simulation/templates/structures/han/palisades_medium.xml:4
 #: simulation/templates/structures/han/palisades_short.xml:4
 #: simulation/templates/structures/han/wallset_palisade.xml:5
-msgid "Bamboo Stockade"
+msgid "Zhà"
 msgstr "栅"
 
 #: simulation/templates/structures/han/palisades_gate.xml:4
-msgid "Bamboo Stockade Gate"
+msgid "Mén"
 msgstr "门"
 
 #: simulation/templates/structures/han/palisades_tower.xml:4
-msgid "Bamboo Stockade Tower"
+msgid "Zhà"
 msgstr "栅"
 
 #: simulation/templates/structures/han/range.xml:12
@@ -1440,15 +1440,15 @@ msgid "Bǎ Chǎng"
 msgstr "靶场"
 
 #: simulation/templates/structures/han/stable.xml:12
-msgid "Mǎ Jiù"
+msgid "Jiù"
 msgstr "厩"
 
 #: simulation/templates/structures/han/storehouse.xml:17
-msgid "Cāngkù"
+msgid "Kù"
 msgstr "库"
 
 #: simulation/templates/structures/han/temple.xml:12
-msgid "Sìmiào"
+msgid "Miào"
 msgstr "庙"
 
 #: simulation/templates/structures/han/wall_gate.xml:9
@@ -1458,11 +1458,11 @@ msgstr "城门"
 #: simulation/templates/structures/han/wall_long.xml:9
 #: simulation/templates/structures/han/wall_medium.xml:9
 #: simulation/templates/structures/han/wall_short.xml:9
-msgid "Chéng Yuán"
+msgid "Yuán"
 msgstr "垣"
 
 #: simulation/templates/structures/han/wall_tower.xml:9
-msgid "Chéng Lóu"
+msgid "Jiǎo Lóu"
 msgstr "角楼"
 
 #: simulation/templates/structures/han/wallset_stone.xml:5

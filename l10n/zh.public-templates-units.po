@@ -426,8 +426,9 @@ msgstr "步兵"
 #: simulation/templates/template_unit_hero_infantry.xml:4
 #: simulation/templates/template_unit_infantry.xml:4
 #: simulation/templates/template_unit_infantry.xml:5
+msgctxt "Name of an attack, usually the weapon."
 msgid "Torch"
-msgstr "火把"
+msgstr "火炬"
 
 #: simulation/templates/template_unit_champion_infantry.xml:16
 msgid "Champion Infantry"
@@ -1466,28 +1467,32 @@ msgstr "军犬"
 msgid "Emperor Wǔ (Liu Che)"
 msgstr "武帝（刘彻）"
 
+#: simulation/templates/units/han/cavalry_scout.xml:6
+msgid "Chì Hòu"
+msgstr "斥候"
+
 #: simulation/templates/units/han/cavalry_archer_b.xml:6
-msgid "Gōng Qíbīng"
+msgid "Gōngjiàn Qíbīng"
 msgstr "弓箭骑兵"
 
 #: simulation/templates/units/han/cavalry_spearman_b.xml:6
-msgid "Máo Qíbīng"
+msgid "Chángjǐ Qíbīng"
 msgstr "长戟骑兵"
 
 #: simulation/templates/units/han/cavalry_swordsman_b.xml:6
-msgid "Dāo Qíbīng"
+msgid "Dāodùn Qíbīng"
 msgstr "刀盾骑兵"
 
 #: simulation/templates/units/han/champion_cavalry_spearman_academy.xml:5
-msgid "Wu Wei Yin Cao Cao Guard"
-msgstr "武卫"
+msgid "Tiě Jì"
+msgstr "铁骑"
 
 #: simulation/templates/units/han/champion_chariot_academy.xml:9
-msgid "Han War Chariot"
+msgid "Han Chariot"
 msgstr "战车"
 
 #: simulation/templates/units/han/champion_chariot_academy.xml:10
-msgid "Zhanche"
+msgid "Zhàn Chē"
 msgstr "战车"
 
 #: simulation/templates/units/han/champion_infantry_archer_academy.xml:5
@@ -1496,10 +1501,10 @@ msgstr "禁卫射手"
 
 #: simulation/templates/units/han/champion_infantry_archer_academy.xml:6
 msgid "Yǔ Lín"
-msgstr "羽林郎"
+msgstr "羽林"
 
 #: simulation/templates/units/han/champion_infantry_crossbowman_academy.xml:5
-msgid "Juezhang"
+msgid "Juě Zhāng"
 msgstr "蹶张"
 
 #: simulation/templates/units/han/champion_infantry_spearman_academy.xml:5
@@ -1544,15 +1549,15 @@ msgid "Halberdier"
 msgstr "长戟手"
 
 #: simulation/templates/units/han/infantry_pikeman_b.xml:21
-msgid "Jǐ Bīng"
+msgid "Chángjǐ Shǒu"
 msgstr "长戟手"
 
 #: simulation/templates/units/han/infantry_spearman_b.xml:11
-msgid "Máo Bīng"
+msgid "Máodùn Shǒu"
 msgstr "矛盾手"
 
 #: simulation/templates/units/han/infantry_swordsman_special_b.xml:11
-msgid "Dāo Bīng"
+msgid "Dāodùn Shǒu"
 msgstr "刀盾手"
 
 #: simulation/templates/units/han/ship_bireme.xml:9
@@ -1564,7 +1569,7 @@ msgid "Huǒ Chuán"
 msgstr "火船"
 
 #: simulation/templates/units/han/ship_fishing.xml:9
-msgid "Yú Chuán"
+msgid "Yú Zhōu"
 msgstr "渔舟"
 
 #: simulation/templates/units/han/ship_merchant.xml:9
@@ -1572,11 +1577,11 @@ msgid "Shāng Chuán"
 msgstr "商船"
 
 #: simulation/templates/units/han/ship_quinquereme.xml:9
-msgid "Dà Lóu Chuán"
+msgid "Lóu Chuán"
 msgstr "楼船"
 
 #: simulation/templates/units/han/ship_trireme.xml:9
-msgid "Lóu Chuán"
+msgid "Dòu Jiàn"
 msgstr "斗舰"
 
 #: simulation/templates/units/han/siege_mangonel_packed.xml:5
@@ -1584,35 +1589,43 @@ msgid "Mangonel"
 msgstr "抛石机"
 
 #: simulation/templates/units/han/siege_mangonel_packed.xml:6
-msgid "Tóushí Chē"
+msgid "Pào"
 msgstr "礮"
 
 #: simulation/templates/units/han/siege_ram.xml:4
-msgid "Gōngchéng Chuí"
+msgid "Chōng Chē"
 msgstr "冲车"
 
 #: simulation/templates/units/han/siege_shoushe.xml:9
-msgid "Nǔ Chē"
+msgid "Chē Nǔ"
 msgstr "车弩"
 
 #: simulation/templates/units/han/siege_tower.xml:9
-msgid "Gōngchéng Tǎ"
+msgid "lín Chē"
 msgstr "临车"
 
 #: simulation/templates/units/han/support_female_citizen.xml:10
-msgid "Fù Nǚ"
+msgid "Fù"
 msgstr "妇"
 
+#: simulation/templates/units/han/support_female_citizen.xml:10
+msgid "Mín"
+msgstr "民"
+
+#: simulation/templates/units/han/support_slave.xml:10
+msgid "Nú"
+msgstr "奴"
+
 #: simulation/templates/units/han/support_healer_b.xml:6
-msgid "Yīshī"
-msgstr "医"
+msgid "Zhù"
+msgstr "祝"
 
 #: simulation/templates/units/han/support_minister.xml:41
 msgid "Imperial Minister"
 msgstr "卿"
 
 #: simulation/templates/units/han/support_minister.xml:42
-msgid "Guānlì"
+msgid "lì"
 msgstr "吏"
 
 #: simulation/templates/units/han/support_minister.xml:43
@@ -1627,7 +1640,7 @@ msgid "Minister"
 msgstr "卿"
 
 #: simulation/templates/units/han/support_trader.xml:9
-msgid "Shāngrén"
+msgid "Shāng"
 msgstr "商"
 
 #: simulation/templates/units/cart/catafalque.xml:8
@@ -2519,8 +2532,8 @@ msgid "Indian Woman"
 msgstr "摩揭陀妇女"
 
 #: simulation/templates/units/maur/support_citizen.xml:12
-msgid "Sudra"
-msgstr "首陀罗"
+msgid "Vaisya"
+msgstr "吠舍"
 
 #: simulation/templates/units/maur/cavalry_scout.xml:13
 msgid "Indian Scout"
@@ -2695,7 +2708,7 @@ msgstr "长生军"
 
 #: simulation/templates/units/pers/champion_infantry.xml:7
 #: simulation/templates/units/pers/champion_infantry_archer.xml:7
-msgid "lmmortal"
+msgid "Immortal"
 msgstr "长生军"
 
 #: simulation/templates/units/pers/champion_infantry.xml:8
@@ -2745,7 +2758,7 @@ msgid "Sogdian Archer"
 msgstr "粟特弓箭手"
 
 #: simulation/templates/units/pers/infantry_archer_b.xml:13
-msgid "Θanuvaniya Suguda"
+msgid "θanuvaniya Suguda"
 msgstr "粟特弓箭手"
 
 #: simulation/templates/units/pers/infantry_javelineer_b.xml:12

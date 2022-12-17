@@ -227,7 +227,7 @@ msgstr "近战士兵攻击+20%。"
 msgid ""
 "By uniting China under one emperor, the Han Dynasty ruled over 40 million "
 "people, one of the largest empires of antiquity by population."
-msgstr "诸夏归于一统，汉朝人口约4000万，是古代名副其实的人口大国。"
+msgstr "诸夏归于一统，汉朝人口约四千万，是古代名副其实的人口大国。"
 
 #: simulation/data/technologies/civbonuses/han_population.jsongenericName
 msgid "Federated States"
@@ -253,6 +253,18 @@ msgstr "长城"
 msgid "City Walls +50% health."
 msgstr "城墙生命值+ 50%。"
 
+#: simulation/data/technologies/civbonuses/han_walls.jsondescription
+msgid "China took the lead in mastering the cast iron process and it was widely used in the manufacture of production tools."
+msgstr "中国率先掌握了铸铁工艺，并广泛用于制造工具。"
+
+#: simulation/data/technologies/civbonuses/han_walls.jsongenericName
+msgid "cast iron"
+msgstr "铸铁"
+
+#: simulation/data/technologies/civbonuses/han_walls.jsontooltip
+msgid "Economic structure −15% technology metal costs and research time."
+msgstr "经济技术研究时间与金属成本-15%。"
+
 #: simulation/data/technologies/civil_engineering_01.jsongenericName
 msgid "Improved Construction"
 msgstr "建筑改良"
@@ -264,7 +276,7 @@ msgstr "工程"
 
 #: simulation/data/technologies/civil_engineering_01.jsontooltip
 msgid "All structures −10% build time and −10% cost."
-msgstr "所有建筑物的建造时间和物资花费-10%。"
+msgstr "所有建筑物的物资成本与建造时间-10%。"
 
 #: simulation/data/technologies/civil_engineering_02.jsongenericName
 msgid "Robust Architecture"
@@ -285,7 +297,7 @@ msgstr "官僚"
 
 #: simulation/data/technologies/civil_service_01.jsontooltip
 msgid "Ministers −50% train time."
-msgstr "官吏训练时间-50%。"
+msgstr "吏训练时间-50%。"
 
 #: simulation/data/technologies/civil_service_02.jsongenericName
 msgid "Intensive Training"
@@ -293,7 +305,7 @@ msgstr "强化训练"
 
 #: simulation/data/technologies/civil_service_02.jsontooltip
 msgid "Ministers +50% health."
-msgstr "官吏生命值+50%。"
+msgstr "吏生命值+50%。"
 
 #: simulation/data/technologies/crossbow_training.jsondescription
 msgid "The Han had a penchant for using massed crossbowmen in battle."
@@ -350,10 +362,8 @@ msgid "Soldiers, Siege Engines, and Ships +25% attack damage."
 msgstr "士兵，攻城机械和战船的攻击伤害+25％。"
 
 #: simulation/data/technologies/attack_steel_working.jsondescription
-msgid ""
-"Secret steel working techniques give sword blades distinctive and beautiful "
-"markings. Not only that, but the steel's hardness is unparalleled."
-msgstr "秘密的锻造技术让剑锋有著独特而美丽的纹路。不仅如此，这种钢铁的强度是无可比拟的。"
+msgid "Fulat Steel, produced in India, takes on a unique and beautiful grain on the blade when forged into swords. Not only that, but the hardness of this steel is unparalleled."
+msgstr "印度生产的弗拉特铁料在锻造成刀剑后，会在刃部呈现独特而美丽的纹路，强度也无可比拟。"
 
 #: simulation/data/technologies/attack_steel_working.jsongenericName
 msgid "Steel Working"
@@ -363,13 +373,21 @@ msgstr "锻造"
 msgid "Toledo Steel"
 msgstr "托莱多钢"
 
-#: simulation/data/technologies/attack_steel_working.jsonspecificName.maur
+#: simulation/data/technologies/soldier_attack_melee_03_variant.jsonspecificName.maur
 msgid "Wootz Steel"
 msgstr "乌兹钢"
 
-#: simulation/data/technologies/attack_steel_working.jsontooltip
-msgid "Swordsmen +20% attack damage."
-msgstr "剑盾手攻击伤害+ 20％。"
+#: simulation/data/technologies/maur_fulat.jsonspecificName.maur
+msgid "Fulat Steel"
+msgstr "花纹钢"
+
+#: simulation/data/technologies/maur_fulat.jsontooltip
+msgid "Swordsmen +10% melee attack damage."
+msgstr "剑士近战伤害+10%。"
+
+#: simulation/data/technologies/soldier_attack_melee_03_variant.jsontooltip
+msgid "Soldiers +20% melee attack damage. Swordsmen get an additional +20% bonus."
+msgstr "士兵近战伤害+20%，剑士近战伤害额外+20％。"
 
 #: simulation/data/technologies/barracks_batch_training.jsondescription
 #: simulation/data/technologies/soldier_batch_training.jsondescription
@@ -614,7 +632,7 @@ msgstr "马厩单位的批量训练时间-10%。"
 msgid ""
 "Qanāt or Kārēz, a network of underground aqueducts connected to the yakhchal"
 " ice house."
-msgstr "坎儿井，可连接到冰室的暗渠。"
+msgstr "坎儿井，可连接到冰窑的暗渠。"
 
 #: simulation/data/technologies/subterranean_aqueducts.jsongenericName
 msgid "Subterranean Aqueducts"
@@ -626,7 +644,7 @@ msgstr "坎儿井"
 
 #: simulation/data/technologies/subterranean_aqueducts.jsontooltip
 msgid "Ice House +1 trickle food rate per second."
-msgstr "使冰室增加1点/秒粮食的物资流。"
+msgstr "使冰窑增加1点/秒粮食的物资流。"
 
 #: simulation/data/technologies/civbonuses/ptol_structures.jsondescription
 msgid ""
@@ -1137,7 +1155,7 @@ msgstr "步兵训练时间-10%."
 msgid ""
 "Athenian triremes can train Marines (Epibates Athenaikos) and Cretan "
 "Mercenary Archers (Toxotes Kretikos)."
-msgstr "阿西奈的三列桨战船可以训练海军剑盾手及克里特弓箭手。"
+msgstr "阿西奈的三列桨战船可以训练海军剑士及克里特弓箭手。"
 
 #: simulation/data/technologies/iphicratean_reforms.jsongenericName
 msgid "Iphicratean Reforms"
@@ -1145,7 +1163,7 @@ msgstr "伊菲克拉特斯改革"
 
 #: simulation/data/technologies/iphicratean_reforms.jsontooltip
 msgid "Athenian Triremes can train Marines and Cretan Mercenary Archers."
-msgstr "阿西奈的三列桨战船可以训练海军剑盾手及克里特弓箭手。"
+msgstr "阿西奈的三列桨战船可以训练海军剑士及克里特弓箭手。"
 
 #: simulation/data/technologies/long_walls.jsondescription
 msgid ""
@@ -1373,7 +1391,7 @@ msgstr "革新军队"
 
 #: simulation/data/technologies/reformed_army_sele.jsontooltip
 msgid "Unlock the Champion Infantry Swordsman."
-msgstr "解锁精锐精锐剑盾手。"
+msgstr "解锁精锐精锐剑士。"
 
 #: simulation/data/technologies/ship_cost_time.jsondescription
 msgid "Employ skilled shipbuilder with specialized tools to speed up ship construction."

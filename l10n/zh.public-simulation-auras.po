@@ -544,7 +544,7 @@ msgstr "建筑规划"
 msgid ""
 "Decrease resource costs and research time of technologies in a building by "
 "2% for each Minister garrisoned within."
-msgstr "每驻守一位吏，物资花费和研究时间-2%。"
+msgstr "每驻守一位吏，物资花费与研究时间-2%。"
 
 #: simulation/data/auras/units/han_minister_garrison.jsonauraName
 msgid "Excellency of Works"
@@ -573,16 +573,16 @@ msgid "Soldiers −20% promotion experience."
 msgstr "士兵升级经验所需-20%。"
 
 #: simulation/data/auras/units/heroes/han_hero_han_xin_1.jsonauraName
-msgid "Northern Army"
-msgstr "北军"
+msgid "godlike commander"
+msgstr "兵仙"
 
 #: simulation/data/auras/units/heroes/han_hero_han_xin_2.jsonauraDescription
 msgid "Own and Allied Soldiers +25% vision range."
 msgstr "我方和盟友士兵视野+25%。"
 
 #: simulation/data/auras/units/heroes/han_hero_han_xin_2.jsonauraName
-msgid "Southern Army"
-msgstr "南军"
+msgid "godlike commander"
+msgstr "兵仙"
 
 #: simulation/data/auras/units/heroes/han_hero_liu_bang_1.jsonauraDescription
 msgid "Walls +10 health regeneration rate."
@@ -590,8 +590,8 @@ msgstr "城墙的生命回复效率+10点。"
 
 #: simulation/data/auras/units/heroes/han_hero_liu_bang_1.jsonauraName
 #: simulation/data/auras/units/heroes/han_hero_liu_bang_2.jsonauraName
-msgid "Confucian Reforms"
-msgstr "儒学教化"
+msgid "Supreme Commander"
+msgstr "大司马大将军"
 
 #: simulation/data/auras/units/heroes/han_hero_liu_bang_2.jsonauraDescription
 msgid "Cavalry +20% attack damage."

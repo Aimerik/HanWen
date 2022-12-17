@@ -457,7 +457,31 @@ msgid ""
 "The core of the Han empire was around the Wei River, and the Han capital was"
 " Chang'an, very close to the Qin capital Xianyang (both are now part of "
 "Xi'an, Shaanxi)."
-msgstr "汉朝（公元前 202 年——公元 220 年），代秦而立。在中国历史上极具代表性，具有承先启后的重要地位。汉朝是中国历史上第一个在黄河流域和长江流域实现真正统一的王朝，北抵大漠、南达交趾、西及葱岭、东至朝鲜。汉朝进一步发展了中国文明，汉朝尊崇的儒学奠定了日后中国历代及周边民族的主流社会文化。正因为汉朝的强盛，在后世两千余年中，汉人一直是中国人民骄傲的自称。"
+msgstr "汉朝（公元前 202 年——公元 220 年），代秦而立，在中国历史上具有承先启后的重要地位，是第一个在黄河、长江与珠江流域实现稳固统治的王朝，其疆域北抵大漠、南达交趾、西及葱岭、东至朝鲜，成为往后中国版图的基本。汉朝进一步发展了统一的中国文明，从武帝开始尊崇的儒学奠定了中国历代及周边文明的主流社会文化。正因为汉朝的强盛，在后世两千余年中，“汉人”一直是中国人民骄傲的自称。"
+
+#: simulation/data/civs/han.jsonCivBonuses[1].Description
+msgid "Pào population +2,Attack Interval and Pack Time -33%."
+msgstr "抛石机占用人口+2，攻击间隔与收放时间-33%。"
+
+#: simulation/data/civs/han.jsonCivBonuses[1].History
+msgid "Traction Trebuchet was invented in China."
+msgstr "杠杆抛石机起源于中国，被称为“礮”。"
+
+#: simulation/data/civs/han.jsonCivBonuses[1].Name
+msgid "Traction Trebuchet"
+msgstr "礮"
+
+#: simulation/data/civs/han.jsonCivBonuses[1].Description
+msgid "Crossbowman training time -33%."
+msgstr "弩手训练时间-33%。"
+
+#: simulation/data/civs/han.jsonCivBonuses[1].History
+msgid "The crossbow made of ox tendons and horns has strong penetrating power and is easy to use."
+msgstr "用筋角制成的弩威力强且易于使用。"
+
+#: simulation/data/civs/han.jsonCivBonuses[1].Name
+msgid "recurve crossbow"
+msgstr "复合弩"
 
 #: simulation/data/civs/iber.jsonAINames[0]
 #: simulation/data/civs/iber.jsonAINames[1]
@@ -792,6 +816,18 @@ msgstr "由月护王于公元前322年所建立，摩揭陀孔雀王朝是第一
 #: simulation/data/civs/maur.jsonName
 msgid "Mauryas"
 msgstr "摩揭陀"
+
+#: simulation/data/civs/han.jsonCivBonuses[1].Description
+msgid "Smaller field area,max gatherer and wood cost -40%."
+msgstr "农田占地面积较小，采集者上限与木材成本-40%。"
+
+#: simulation/data/civs/han.jsonCivBonuses[1].History
+msgid "Rice is the most important food crop in the Indian region."
+msgstr "水稻是印度地区最主要的粮食作物。"
+
+#: simulation/data/civs/han.jsonCivBonuses[1].Name
+msgid "Rice Paddy"
+msgstr "稻田"
 
 #: simulation/data/civs/pers.jsonAINames[0]
 msgid "Kurush II the Great"
