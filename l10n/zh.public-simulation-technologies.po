@@ -1709,8 +1709,8 @@ msgid "Tusk Spikes"
 msgstr "尖刺牙套"
 
 #: simulation/data/technologies/attack_tusk_spikes.jsontooltip
-msgid "+25% hack attack for war elephants."
-msgstr "战象砍斫伤害+25%。"
+msgid "+25% thump attack for war elephants."
+msgstr "战象捶打伤害+25%。"
 
 #: simulation/data/technologies/Melee_training.jsondescription
 #: simulation/data/technologies/Cavalry_Melee_training.jsondescription

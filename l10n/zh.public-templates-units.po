@@ -168,7 +168,7 @@ msgstr "斧骑兵"
 #: simulation/templates/template_unit_infantry_melee_axeman.xml:24
 #: simulation/templates/template_unit_infantry_melee_axeman.xml:25
 msgid "Axeman"
-msgstr "斧手"
+msgstr "斧兵"
 
 #: simulation/templates/template_unit_cavalry_melee_maceman.xml:5
 #: simulation/templates/template_unit_champion_cavalry_maceman.xml:5
@@ -191,7 +191,7 @@ msgstr "骨朵骑兵"
 #: simulation/templates/template_unit_hero_infantry_maceman.xml:19
 #: simulation/templates/template_unit_infantry_melee_maceman.xml:24
 msgid "Maceman"
-msgstr "骨朵手"
+msgstr "骨朵兵"
 
 #: simulation/templates/template_unit_cavalry_melee_spearman.xml:5
 #: simulation/templates/template_unit_champion_cavalry_spearman.xml:5
@@ -440,7 +440,7 @@ msgstr "精锐弓箭手"
 
 #: simulation/templates/template_unit_champion_infantry_axeman.xml:22
 msgid "Champion Axeman"
-msgstr "精锐斧手"
+msgstr "精锐斧兵"
 
 #: simulation/templates/template_unit_champion_infantry_javelineer.xml:30
 msgid "Champion Infantry Javelineer"
@@ -448,7 +448,7 @@ msgstr "精锐标枪手"
 
 #: simulation/templates/template_unit_champion_infantry_maceman.xml:21
 msgid "Champion Infantry Maceman"
-msgstr "精锐骨朵手"
+msgstr "精锐骨朵兵"
 
 #: simulation/templates/template_unit_champion_infantry_pikeman.xml:5
 #: simulation/templates/template_unit_hero_infantry_pikeman.xml:5
@@ -467,11 +467,17 @@ msgstr "精锐长枪手"
 msgid "Counters: 0.75× vs Armored and 1.25 × Cavalry."
 msgstr "针对具装造成0.75倍伤害，针对骑兵造成1.25倍伤害。"
 
+#: simulation/templates/template_unit_champion_infantry_swordsman.xml:28
+#: simulation/templates/template_unit_hero_infantry_swordsman.xml:25
+#: simulation/templates/template_unit_infantry_melee_swordsman.xml:30
+msgid "Counters: 0.75× vs Armored and 1.25× vs Ranged Infantry."
+msgstr "针对具装造成0.75倍伤害，针对远程步兵造成1.25倍伤害。"
+
 #: simulation/templates/template_unit_cavalry_melee_spearman.xml:30
 #: simulation/templates/template_unit_champion_cavalry_spearman.xml:28
 #: simulation/templates/template_unit_hero_cavalry_spearman.xml:25
-msgid "Counters: 1.5× vs Ranged Unit and 0.75× vs Spearman and Pikeman."
-msgstr "针对远程单位造成1.5倍伤害，针对枪手和长枪手造成0.75倍伤害。"
+msgid "Counters: 1.5× vs Ranged Unit."
+msgstr "针对远程单位造成1.5倍伤害。"
 
 #: simulation/templates/template_unit_champion_infantry_pikeman.xml:29
 #: simulation/templates/template_unit_hero_infantry_pikeman.xml:26
@@ -595,7 +601,7 @@ msgstr "英雄弓箭手"
 
 #: simulation/templates/template_unit_hero_infantry_axeman.xml:19
 msgid "Hero Axeman"
-msgstr "英雄斧手"
+msgstr "英雄斧兵"
 
 #: simulation/templates/template_unit_hero_infantry_javelineer.xml:27
 msgid "Hero Infantry Javelineer"
@@ -603,7 +609,7 @@ msgstr "英雄标枪手"
 
 #: simulation/templates/template_unit_hero_infantry_maceman.xml:18
 msgid "Hero Infantry Maceman"
-msgstr "英雄骨朵手"
+msgstr "英雄骨朵兵"
 
 #: simulation/templates/template_unit_hero_infantry_pikeman.xml:24
 msgid "Hero Pikeman"
@@ -629,7 +635,7 @@ msgstr "近战步兵"
 
 #: simulation/templates/template_unit_infantry_melee_maceman.xml:23
 msgid "Infantry Maceman"
-msgstr "骨朵手"
+msgstr "骨朵兵"
 
 #: simulation/templates/template_unit_infantry_ranged_javelineer.xml:32
 msgid "Infantry Javelineer"
@@ -643,7 +649,7 @@ msgstr "投石索"
 #: simulation/templates/template_unit_infantry_ranged_slinger.xml:33
 #: simulation/templates/template_unit_infantry_ranged_slinger.xml:34
 msgid "Slinger"
-msgstr "投石手"
+msgstr "投石兵"
 
 #: simulation/templates/template_unit_ship.xml:27
 #: simulation/templates/template_unit_ship.xml:29
@@ -1166,11 +1172,11 @@ msgstr "克里特弓箭手"
 
 #: simulation/templates/units/athen/infantry_slinger_b.xml:13
 msgid "Athenian Slinger Militia"
-msgstr "阿西奈投石手"
+msgstr "阿西奈投石兵"
 
 #: simulation/templates/units/athen/infantry_slinger_b.xml:14
 msgid "Psilòs Athēnaîos"
-msgstr "阿西奈投石手"
+msgstr "阿西奈投石兵"
 
 #: simulation/templates/units/athen/infantry_spearman_b.xml:13
 msgid "Athenian Hoplite"
@@ -1384,12 +1390,12 @@ msgstr "突袭兵"
 
 #: simulation/templates/units/brit/infantry_slinger_b.xml:6
 msgid "Celtic Slinger"
-msgstr "凯尔特投石手"
+msgstr "凯尔特投石兵"
 
 #: simulation/templates/units/brit/infantry_slinger_b.xml:7
 #: simulation/templates/units/gaul/infantry_slinger_b.xml:11
 msgid "Talmoris"
-msgstr "投石手"
+msgstr "投石兵"
 
 #: simulation/templates/units/brit/infantry_spearman_b.xml:6
 msgid "Celtic Spearman"
@@ -1750,11 +1756,11 @@ msgstr "伊比利亚标枪手"
 
 #: simulation/templates/units/cart/infantry_slinger_iber_b.xml:13
 msgid "Balearic Slinger"
-msgstr "巴利阿里投石手"
+msgstr "巴利阿里投石兵"
 
 #: simulation/templates/units/cart/infantry_slinger_iber_b.xml:14
 msgid "Qallāʿ Ibušimi"
-msgstr "巴利阿里投石手"
+msgstr "巴利阿里投石兵"
 
 #: simulation/templates/units/cart/infantry_spearman_b.xml:14
 msgid "Libyan Spearman"
@@ -1932,7 +1938,7 @@ msgstr "游击兵"
 
 #: simulation/templates/units/iber/infantry_slinger_b.xml:11
 msgid "Habailari"
-msgstr "投石手"
+msgstr "投石兵"
 
 #: simulation/templates/units/iber/infantry_spearman_b.xml:11
 msgid "Ezkutari"
@@ -2342,11 +2348,11 @@ msgstr "马其顿长枪手"
 
 #: simulation/templates/units/mace/infantry_slinger_b.xml:7
 msgid "Rhodian Slinger"
-msgstr "罗德投石手"
+msgstr "罗德投石兵"
 
 #: simulation/templates/units/mace/infantry_slinger_b.xml:8
 msgid "Sphendonḗtēs Rhódios"
-msgstr "罗德投石手"
+msgstr "罗德投石兵"
 
 #: simulation/templates/units/mace/ship_bireme.xml:9
 msgid "Hemiolos"
@@ -2982,11 +2988,11 @@ msgstr "埃及长枪手"
 
 #: simulation/templates/units/ptol/infantry_slinger_b.xml:12
 msgid "Judean Slinger"
-msgstr "希伯来投石手"
+msgstr "希伯来投石兵"
 
 #: simulation/templates/units/ptol/infantry_slinger_b.xml:13
 msgid "Hebraikós Sphendonḗtēs"
-msgstr "希伯来投石手"
+msgstr "希伯来投石兵"
 
 #: simulation/templates/units/ptol/infantry_spearman_merc_b.xml:12
 msgid "Thureos Spearman"
@@ -3142,7 +3148,7 @@ msgstr "罗马标枪手"
 
 #: simulation/templates/units/rome/infantry_javelineer_b.xml:13
 msgid "Roman Slinger"
-msgstr "罗马投石手"
+msgstr "罗马投石兵"
 
 #: simulation/templates/units/rome/infantry_javelineer_b.xml:14
 msgid "Vēles"
@@ -3495,11 +3501,11 @@ msgstr "奴隶标枪手"
 
 #: simulation/templates/units/spart/infantry_slinger_b.xml:13
 msgid "Helot Slinger"
-msgstr "奴隶投石手"
+msgstr "奴隶投石兵"
 
 #: simulation/templates/units/spart/infantry_slinger_b.xml:14
 msgid "Psilòs Heílōs"
-msgstr "奴隶投石手"
+msgstr "奴隶投石兵"
 
 #: simulation/templates/units/spart/infantry_spearman_b.xml:13
 msgid "Perioikoi Hoplite"
